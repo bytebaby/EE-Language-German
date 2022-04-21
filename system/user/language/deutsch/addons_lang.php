@@ -3,6 +3,7 @@
 $lang = array(
 
 // Sidebar Menu
+
 'addon' => 'Add-On',
 
 'addon_manager' => 'Add-On-Verwaltung',
