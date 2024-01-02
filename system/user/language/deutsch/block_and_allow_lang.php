@@ -6,7 +6,7 @@ $lang = array(
 
 'block_and_allow_module_description' => 'Blockiere/erlaube IP Addressen, URLs und User-Agents',
 
-'add_htaccess_file' => 'Zur .htaccess hinzufügen?',
+'add_htaccess_file' => 'Zur htaccess hinzufügen?',
 
 'add_htaccess_file_desc' => 'Vollständiger Pfad zur <mark>htaccess</mark>.',
 
