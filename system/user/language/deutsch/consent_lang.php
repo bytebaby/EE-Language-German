@@ -2,6 +2,8 @@
 
 $lang = [
 
+'consent_module_name' => 'Einwilligung',
+
 'consent_app_created' => 'App erstellt',
 
 'consent_granted_by_log_msg' => 'Zustimmung erteilt von %s via %s',
@@ -48,15 +50,19 @@ $lang = [
 
 'edit_consent_request' => 'Einverständniserklärung bearbeitren',
 
-'new_consent_version_destructive' => 'Dies ist eine zerstörende und irreversible Aktion.',
+'new_consent_version_destructive' => 'Dies ist eine irreversible Aktion.',
 
 'new_consent_version_notice' => 'Durch das Bearbeiten dieser Einverständniserklärung werden alle vorherigen Einwilligungen, die für diese Einverständniserklärung erteilt wurden, universell widerrufen.',
+
+'all_consents' => 'Alle %d Zustimmungen',
 
 'opt_in' => 'Opt-In',
 
 'opt_out' => 'Opt-Out',
 
 'request' => 'Anfordern',
+
+'online_form' => 'Online-Formular',
 
 ];
 

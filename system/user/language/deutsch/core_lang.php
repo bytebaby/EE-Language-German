@@ -77,11 +77,16 @@ $lang = array(
 
 'yes' => 'Ja',
 
+'required_fields' => 'Benötigte Felder',
+
+'edit_this' => 'Dies bearbeiten',
 
 /* Errors */
 'captcha_incorrect' => 'Sie haben das Wort nicht genau so eingetragen, wie es im Bild erscheint',
 
 'captcha_required' => 'Sie müssen das Wort eintragen, das im Bild angezeigt wird',
+
+'recaptcha_required' => 'reCAPTCHA-Prüfung nicht bestanden',
 
 'checksum_changed_accept' => 'Änderungen akzeptieren',
 
@@ -96,7 +101,15 @@ Wenn Sie diese Änderungen vorgenommen haben, akzeptieren Sie die Änderungen au
 
 'checksum_email_subject' => 'Eine Core-Datei wurde auf Ihrer Website geändert.',
 
+'warning_system_status_title' => 'Bitte überprüfen Sie den Online-Status des Systems',
+
+'warning_system_status_message' => 'Ihr aktueller Systemstatus ist auf <b>%s</b> gesetzt. Wenn Sie dies ändern müssen, besuchen Sie bitte die <a href="%s">Systemeinstellungen</a> oder klicken auf den Button unten',
+
+'warning_system_status_button' => 'System einstellen %s',
+
 'csrf_token_expired' => 'Dieses Formular ist abgelaufen. Bitte erneut aufrufen.',
+
+'cookie_domain_mismatch' => 'Die konfigurierte Cookie-Domain stimmt nicht mit dem Site-URL überein.',
 
 'current_password_incorrect' => 'Ihr aktuelles Passwort wurde nicht korrekt eingegeben.',
 
@@ -108,6 +121,8 @@ Wenn Sie diese Änderungen vorgenommen haben, akzeptieren Sie die Änderungen au
 
 'file_not_found' => 'Die Datei %s existiert nicht.',
 
+'file_manager' => 'File Manager',
+
 'general_error' => 'Folgende Fehler traten auf',
 
 'generic_fatal_error' => 'Etwas ging schief und dieser URL kann im Moment nicht verarbeitet werden.',
@@ -118,6 +133,8 @@ Wenn Sie diese Änderungen vorgenommen haben, akzeptieren Sie die Änderungen au
 
 'missing_encryption_key' => 'In Ihrer config.php ist für <code>%s</code> kein Wert festgelegt. Dadurch kann Ihre Installation Sicherheitslücken ausgesetzt sein. Stellen Sie die Schlüssel wieder her oder lesen Sie <a href="%s">diesen Artikel zur Problembehandlung</a> im Benutzerhandbuch.',
 
+'el_folder_present' => 'Das <code>%s</code>-Verzeichnis ist auf Ihrem Server. Bitte stellen Sie sicher, dass Sie Ihre <code>index.php</code> und <code>admin.php</code> gemäß den <a href="%s">Update-Anweisungen</a> ersetzt haben, um danach das obige Verzeichnis zu entfernen.',
+
 'missing_mime_config' => 'Kann Ihre Mime-Typ-Whitelist nicht importieren: die Datei %s existiert nicht oder kann nicht gelesen werden.',
 
 'new_version_error' => 'Beim Herunterladen der aktuellen ExpressionEngine-Versionsnummer ist ein unerwarteter Fehler aufgetreten. Weitere Informationen finden Sie in diesem <a href="%s" rel="external noreferrer">Dokument zur Fehlerbehebung</a>',
@@ -125,6 +142,14 @@ Wenn Sie diese Änderungen vorgenommen haben, akzeptieren Sie die Änderungen au
 'nonexistent_page' => 'Die gewünschte Seite wurde nicht gefunden',
 
 'redirect_xss_fail' => 'Der Link, auf den Sie umgeleitet wurden, enthielt potentiellen Schadcode. Wir empfehlen, den Back-Button zu klicken und per Email den Link an %s zu melden, der diese Mitteilung hervorrief.',
+
+'redirect_warning_header' => 'Umleitungswarnung',
+
+'redirect_description' => 'Sie öffnen eine neue Webseite, die nicht zum CMS gehört: <b>%s</b>',
+
+'redirect_check_address' => 'Bitte überprüfen Sie noch einmal, ob die Adresse korrekt ist.',
+
+'redirect_cancel' => 'Abbrechen',
 
 'submission_error' => 'Das abgeschickte Formular enthielt folgende Fehler:',
 
@@ -138,6 +163,11 @@ Wenn Sie diese Änderungen vorgenommen haben, akzeptieren Sie die Änderungen au
 
 'version_mismatch' => 'Die Version Ihrer ExpressionEngine-Installation (%s) stimmt nicht mit der gemeldeten Version (%s) überein. <a href="'.DOC_URL.'installation/update.html" rel="external">Aktualisieren Sie Ihre Installation von ExpressionEngine erneut</a>.',
 
+'php72_intl_error' => 'Ihre <code>intl</code> PHP-Erweiterung ist veraltet. Bitte stellen Sie sicher, dass <code>ICU 4.6</code> oder neuer instwalliert ist.',
+
+ 'license_error' => 'Lizenzfehler',
+'license_error_file_not_writable' => 'Der Cache-Ordner muss beschreibbar sein, damit ExpressionEngine Pro funktioniert',
+'license_error_file_broken' => 'Bei der Validierung des ExpressionEngine Pro-Lizenzstatus ist ein Fehler aufgetreten',
 
 /* Member Groups */
 'banned' => 'Gesperrt',
@@ -150,9 +180,12 @@ Wenn Sie diese Änderungen vorgenommen haben, akzeptieren Sie die Änderungen au
 
 'super_admins' => 'Super-Admins',
 
+'anonymous' => 'Anonym',
 
 /* Template.php */
 'error_fix_module_processing' => 'Bitte überprüfen Sie, ob das Modul \'%x\' isntalliert ist und dass  \'%y\' eine verfügbare Methode des Moduls ist',
+
+'error_fix_install_addon' => 'Bitte prüfen, ob das Add-on \'%x\' installiert ist.',
 
 'error_fix_syntax' => 'Bitte die Syntax im Template korrigieren.',
 
@@ -172,6 +205,7 @@ Wenn Sie diese Änderungen vorgenommen haben, akzeptieren Sie die Änderungen au
 
 'template_loop' => 'Sie haben eine Templateschleife aufgrund nicht korrekt verschachtelter Sub-Templates verursacht (\'%s\' rekursiv aufgerufen)',
 
+'route_not_found' => 'Tempaltes-Route nicht gefunden.',
 
 /* Email */
 'error_sending_email' => 'Email senden zur Zeit nicht möglich.',
@@ -184,8 +218,9 @@ Wenn Sie diese Änderungen vorgenommen haben, akzeptieren Sie die Änderungen au
 
 'password_reset_flood_lock' => 'Sie haben heute zu oft versucht, Ihr Passwort zurückzusetzen. Bitte überprüfen Sie Ihren Posteingang und Ihre Spam-Ordner auf frühere Anfragen oder wenden Sie sich an den Website-Administrator.',
 
-'your_new_login_info' => 'Login-Information',
+'forgotten_username_email_sent' => 'Wenn diese Email-Adresse einem Konto zugeordnet ist, wurde Ihnen gerade eine Email mit Ihrem Benutzernamen gesendet.',
 
+'your_new_login_info' => 'Login-Informationen',
 
 /* Timezone */
 'invalid_date_format' => 'Das von Ihnen übermittelte Datumsformat ist ungültig.',
@@ -195,7 +230,6 @@ Wenn Sie diese Änderungen vorgenommen haben, akzeptieren Sie die Änderungen au
 'no_timezones' => 'Keine Zeitzonen',
 
 'select_timezone' => 'Zeitzone wählen',
-
 
 /* Date */
 'singular' => 'eins',
@@ -419,6 +453,54 @@ Wenn Sie diese Änderungen vorgenommen haben, akzeptieren Sie die Änderungen au
 'UP13' => '(UTC +13:00) Samoa Time Zone, Phoenix Islands Time, Tonga',
 
 'UP14' => '(UTC +14:00) Line Islands',
+
+/* Cookies */
+
+'cookie_csrf_token' => 'CSRF Token',
+'cookie_csrf_token_desc' => 'Ein Sicherheits-Cookie, das verwendet wird, um den Benutzer zu identifizieren und Cross-Site-Request-Forgery-Angriffe zu verhindern.',
+
+'cookie_flash' => 'Flash Daten',
+'cookie_flash_desc' => 'Benutzer-Feedback-Nachrichten, aus Sicherheitsgründen verschlüsselt.',
+
+'cookie_remember' => 'Automatisch anmelden',
+'cookie_remember_desc' => 'Legt fest, ob ein Benutzer beim Besuch der Website automatisch angemeldet wird.',
+
+'cookie_sessionid' => 'Session ID',
+'cookie_sessionid_desc' => 'Sitzungs-ID, die verwendet wird, um einen angemeldeten Benutzer mit seinen Daten zu verknüpfen.',
+
+'cookie_visitor_consents' => 'Zustimmung des Besuchers',
+'cookie_visitor_consents_desc' => 'Speichert Antworten auf Zustimmungsanfragen für nicht angemeldete Besucher',
+
+'cookie_last_activity' => 'Letzte Aktivität',
+'cookie_last_activity_desc' => 'Zeichnet die Zeit des letzten Seitenaufrufs auf. Wird bei der Berechnung aktiver Sitzungen verwendet.',
+
+'cookie_last_visit' => 'Letzter Besuch',
+'cookie_last_visit_desc' => 'Datum des letzten Besuchs des Benutzers, basierend auf dem last_activity-Cookie. Kann als Statistik für Mitglieder angezeigt und von Foren und Kommentaren verwendet werden, um ungelesene Themen sowohl für Mitglieder als auch für Gäste anzuzeigen.',
+
+'cookie_anon' => 'Anonymisieren',
+'cookie_anon_desc' => 'Legt fest, ob der Benutzername des Benutzers in der Liste der derzeit angemeldeten Mitglieder angezeigt wird.',
+
+'cookie_tracker' => 'Tracker',
+'cookie_tracker_desc' => 'Enthält die letzten 5 angesehenen Seiten, aus Sicherheitsgründen verschlüsselt. Wird normalerweise für die Rückgabe von Formularen oder Fehlermeldungen verwendet.',
+
+'cookie_viewtype' => 'Ansichtstyp des Dateimanagers',
+'cookie_viewtype_desc' => 'Bestimmt den im Dateimanager zu verwendenden Ansichtstypen (Tabellen- oder Thumbnail-Ansicht)',
+
+'cookie_cp_last_site_id' => 'CP letzte Site-ID',
+'cookie_cp_last_site_id_desc' => 'MSM-Cookie, das die letzte Seite angibt, auf die in der Systemsteuerung zugegriffen wurde.',
+
+'cookie_collapsed_nav' => 'Zugeklappte Navigation',
+'cookie_collapsed_nav_desc' => 'Legt fest, ob die Navigationsseitenleiste das Bedienfeld einklappen soll.',
+
+'cookie_secondary_sidebar' => 'Zustand der sekundären Seitenleiste',
+'cookie_secondary_sidebar_desc' => 'Legt fest, ob die Seitenleiste der sekundären Navigation in der Systemsteuerung für jeden entsprechenden Abschnitt eingeklappt werden soll.',
+
+'cookie_ee_cp_viewmode' => 'CP Ansichtsmodus',
+'cookie_ee_cp_viewmode_desc' => 'Legt den Ansichtsmodus für das Control Panel fest.',
+
+'cp' => 'Control Panel',
+
+'adapter_local' => 'Lokal',
 
 );
 

@@ -26,6 +26,8 @@ $lang = array(
 
 'duplicate_page_uri' => 'Dupliziere Seiten-URI',
 
+ 'duplicate_page_uri_used' => 'Doppelter Seiten-URI wird von <a href="%s">%s</a> verwendet.',
+
 'edit_page' => 'Seite bearbeiten',
 
 'example_uri' => '/bespiel/pages/uri/',

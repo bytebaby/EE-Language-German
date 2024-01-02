@@ -2,8 +2,6 @@
 
 $lang = array(
 
-'add_site' => 'Site hinzufügen',
-
 'btn_site_limit_reached' => 'Site-Limit erreicht',
 
 'cannot_remove_site_1' => 'Sie können die Site <b>%s</b> nicht entfernen .',
@@ -63,6 +61,15 @@ $lang = array(
 'sites_removed_desc' => 'Die folgenden Websites wurden entfernt',
 
 'switch_to' => 'Wechseln zu',
+
+/* Site color */
+'site_color_settings' => 'Farbeinstellungen der Website',
+
+'site_color' => 'Diese Website farblich kennzeichnen?',
+
+'site_color_desc' => 'Wende für diese Website eine benutzerdefinierte Farbe auf den oberen Rand der Seitenleiste des Steuerungsfelds an.',
+
+'pick_color' => 'Wähle eine Farbe'
 
 );
 

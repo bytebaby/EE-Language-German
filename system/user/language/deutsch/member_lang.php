@@ -22,10 +22,6 @@ $lang = array(
 
 'avatar_updated' => 'Avatar wurde aktualisiert',
 
-'avatar_upload_disallowed' => 'Avatar-Uploads sind derzeit nicht aktiviert.',
-
-'avatars_not_enabled' => 'Avatare sind derzeit deaktiviert',
-
 'avatars_not_found' => 'Die gewünschten Avatare konnten nicht gefunden werden',
 
 'blue' => 'Blau',
@@ -71,8 +67,6 @@ $lang = array(
 'delete_selected_members' => 'Ausgewählte Mitglieder löschen',
 
 'disallowed_screen_chars' => 'Der Bildschirmname enthält unzulässige Zeichen',
-
-'display_avatars' => 'Mitglieder-Avatare in Einträgen anzeigen',
 
 'display_signatures' => 'Mitglieder-Signaturen in Einträgen anzeigen',
 
@@ -161,6 +155,10 @@ $lang = array(
 'mbr_activation_success' => 'Ihr Konto wurde aktiviert.',
 
 'mbr_admin_will_activate' => 'Ein Administrator wird Ihr Konto aktivieren und Sie benachrichtigen, wenn es einsatzbereit ist.',
+
+'mbr_cannot_activate_role_not_exists' => 'Ihr Konto kann nicht aktiviert werden. Die Mitgliederrolle existiert nicht.',
+
+'mbr_cannot_activate_role_is_locked' => 'Ihr Konto kann nicht aktiviert werden. Die Mitgliederrolle ist gesperrt.',
 
 'mbr_aim_console' => 'AOL IM',
 
@@ -296,7 +294,7 @@ $lang = array(
 
 'mbr_membership_instructions_email' => 'Sie haben gerade eine Email mit Anweisungen zur Aktivierung der Mitgliedschaft erhalten.',
 
-'ü' => 'Menü',
+'mbr_menu' => 'Menü',
 
 'mbr_message' => 'Email-Mitteilung',
 
@@ -360,6 +358,10 @@ $lang = array(
 
 'mbr_registration_not_allowed' => 'Neue Mitgliederkonten werden derzeit nicht akzeptiert.',
 
+'mbr_cannot_register_role_not_exists' => 'Die Registrierung kann nicht abgeschlossen werden. Die Mitgliederrolle existiert nicht.',
+
+'mbr_cannot_register_role_is_locked' => 'Die Registrierung kann nicht abgeschlossen werden. Die Mitgliederrolle ist gesperrt.',
+
 'mbr_required' => 'Kennzeichnet erforderliche Felder',
 
 'mbr_required_fields' => 'Kennzeichnet erforderliche Felder',
@@ -399,6 +401,8 @@ $lang = array(
 'mbr_url' => 'URL',
 
 'mbr_username' => 'Benutzername',
+
+'mbr_username_email_sent' => 'Benutzername E-Mail vergessen gesendet',
 
 'mbr_username_length' => 'Benutzernamen müssen mindestens %x Zeichen lang sein',
 
@@ -499,7 +503,6 @@ $lang = array(
 'private_messages' => 'Private Mitteilungen',
 
 'profile_not_available' => 'Das angeforderte Mitgliederprofil ist derzeit nicht verfügbar',
-
 
 'purple' => 'Lila',
 
@@ -609,6 +612,7 @@ Wir behalten uns das Recht vor, Nachrichten aus beliebigen Gründen zu entfernen
 
 'yun_len' => 'Ihr Benutzername ist derzeit %s Zeichen lang',
 
+'legacy_member_templates_not_enabled' => 'Diese Seite ist nicht zugänglich, weil <a href="'.DOC_URL.'member/profile-templates.html" target="_blank" rel="external">veraltete Mitglieder-Templates</a> nicht aktiviert sind.',
 
 /* Used Primarily in the Member_auth::forgot_password() through Member_auth::process_reset_password() call chain */
 'mbr_missing_confirm' => 'Sie müssen Ihr neues Passwort bestätigen.',

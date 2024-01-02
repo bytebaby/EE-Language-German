@@ -42,6 +42,10 @@ $lang = array(
 
 'forgot_password_instructions_desc' => 'Dieses Template definiert die Anweisungen, die ein Benutzer erhält, der sein Kennwort vergessen hat',
 
+'forgot_username_instructions' => 'Benutzer &ndash; Anleitung zum Benutzernamen vergessen',
+
+'forgot_username_instructions_desc' => 'Diese Vorlage definiert die E-Mail, die an einen Benutzer gesendet wird, der seinen Benutzernamen vergessen hat',
+
 'forum_announcements' => 'Bekanntmachungen',
 
 'forum_archives' => 'Archive',
@@ -164,7 +168,9 @@ $lang = array(
 
 'validated_member_notify' => 'Benutzer &ndash; Benachrichtigung zur Kontoüberprüfung',
 
-'validated_member_notify_desc' => 'Dieses Temolate definiert die Benachrichtigung, die Mitglieder erhalten, wenn ein Administrator sein Mitgliederkonto überprüft hat',
+'validated_member_notify_desc' => 'Dieses Template definiert die Benachrichtigung, die Mitglieder erhalten, wenn ein Administrator sein Mitgliederkonto überprüft hat',
+
+'mbr_tmpl_should_be_in' => 'Ältere Mitglieder-Templates sollten sich im Ordner befinden',
 
 );
 

@@ -2,222 +2,217 @@
 $lang = array(
 
 
-'moblog_allow_overrides' => 'Überschreiben in Email zulassen?',
-
-'moblog_allow_overrides_subtext' => 'Wenn aktiviert, können die Einstellungen oben in der Email übergangen werden',
-
-'moblog_sticky_entry' => 'Eintrag fixieren?',
-
 'moblog_module_name' => 'Moblog',
 
-'moblog_module_description' => 'Moblogging- Modul',
+'moblog' => 'Moblog',
 
-'moblog_prefs' => 'Einstellungen',
+'moblogs' => 'Moblogs',
 
-'moblog_type' => 'Moblog-Typ',
+'moblogs_removed' => 'Moblogs entfernt',
 
-'channel' => 'Channel',
+'moblogs_removed_desc' => '%d Moblogs wurden entfernt.',
 
-'invalid_upload_directory' => 'Ungültiges Upload-Verzeichnis',
+'create_moblog' => 'Moblog erstellen',
 
-'upload_directory_unwriteable' => 'Datei kann nicht ins Upload-Verzeichnis geschrieben werden',
+'edit_moblog' => 'Moblog bearbeiten',
 
-'moblog_entry_settings' => 'Channel-Eintragseinstellungen',
+'check_now' => 'Jetzt prüfen',
 
-'moblog' => 'Moblogging',
+'moblog_name' => 'Moblog-Name',
 
-'moblog_basis' => 'Neues Moblog basiert auf: ',
+'moblog_short_name' => 'Kurzname',
 
-'edit_moblog' => 'Moblog aktualisieren',
+'moblog_check_interval' => 'Zeit zwischen den Checks',
 
-'view_moblogs' => 'Moblog-Konten',
+'moblog_check_interval_desc' => 'Beeinflusst {exp:moblog:check} tag. Die Zahl wird in Minuten eingestellt. Sie können Dezimalbrüche verwenden. Beispiel:: 1.5',
 
-'create_moblog' => 'Neues Moblog erstellen',
+'moblog_enabled' => 'Moblog aktiviert?',
 
-'check_moblogs' => 'Moblogs prüfen',
+'file_archive_mode' => 'Dateiarchiv-Modus aktiviert?',
 
-'check_moblog' => 'Moblog prüfen',
+'file_archive_mode_desc' => 'Wenn dieses Moblog aktiviert ist, werden keine Channel-Einträge veröffentlicht. Ihre Dateien werden nur am angegebenen Upload-Speicherort gespeichert.',
 
-'invalid_moblog' => 'Ungültige Moblog-Auswahl',
+'channel_entry_settings' => 'Einstellungen Channel-Einträge',
 
-'moblog_check_select' => 'Moblog zum Prüfen auswählen',
+'moblog_channel_desc' => 'Wenn kein Channel ausgewählt ist, wird dieses Moblog keine Channel-Einträge veröffentlichen. Ihre Dateien werden nur am angegebenen Upload-Speicherort gespeichert.',
 
-'moblog_general_settings' => 'Allgemeine Einstellungen',
+'cat_id' => 'Standardkategorien',
+
+'field_id' => 'Standardfeld',
+
+'default_status' => 'Standardstatus',
+
+'author_id' => 'Standardautor',
+
+'moblog_sticky_entry' => 'Eintrag oben fixieren?',
+
+'moblog_allow_overrides' => 'Überschreibungen in Emails zulassen?',
+
+'moblog_allow_overrides_subtext' => 'Wenn aktiviert, können die obigen Standardeinstellungen in der Email überschrieben werden.',
+
+'moblog_template' => 'Moblog-Template',
 
 'moblog_email_settings' => 'Email-Einstellungen',
 
 'moblog_file_settings' => 'Datei-Einstellungen',
 
-'moblog_full_name' => 'Moblog-Name ',
+'save_moblog' => 'Moblog sichern',
 
-'moblog_short_name' => 'Kurzname',
+'pop3' =>
+'POP3',
 
-'no_spaces' => 'Nur ein Wort, keine Leerzeichen',
+'imap' =>
+'IMAP',
 
-'channel_id' => 'Channel wählen',
+'moblog_email_type' =>
+'Email-Kontotyp',
 
-'cat_id' => 'Standard-Kategorien',
+'moblog_email_address' =>
+'Emailadresse',
 
-'field_id' => 'Standard-Feld',
+'moblog_email_server' =>
+'Eingehender Mailserver',
 
-'status' => 'Standard-Status',
+'server_example' =>
+'Ex: mail.yoursite.com',
 
-'author_id' => 'Standard-Autor',
+'moblog_email_login' =>
+'Benutzername des Email-Kontos',
 
-'none' => 'Keine',
+'moblog_email_password'	=>
+'Passwort des E-Mail-Kontos',
 
-'all' => 'Alle',
+'data_encrypted' =>
+'Daten beim Senden verschlüsselt',
 
-'open' => 'Offen',
+'moblog_subject_prefix'	=>
+'Moblog-Betreff-Präfix',
 
-'closed' => 'Geschlossen',
+'moblog_subject_subtext'	=>
+'Lassen Sie das Feld leer, um alle Emails automatisch zu akzeptieren.',
 
-'moblog_auth_required' => 'Autorisierung per Email erforderlich?',
+'moblog_auth_required' =>
+'Autorisierung per Email erforderlich?',
 
-'moblog_auth_delete' => 'Nicht autorisierte Moblog-Emails löschen?',
+'moblog_auth_subtext' =>
+'Wenn aktiviert, werden nur in Emails mit Benutzername und Passwort Dateien hochgeladen oder Einträge gesendet.',
 
-'moblog_auth_delete_subtext' => 'Wenn Autorisierung erforderlich ist, aber nicht erfolgt, wird die Email gelöscht.',
+'moblog_auth_delete' =>
+'Nicht autorisierte Moblog-Emails löschen?',
 
-'moblog_upload_directory' => 'Upload-Verzeichnis für Dateien',
+'moblog_auth_delete_subtext' =>
+'Wenn eine Autorisierung erforderlich ist und die Autorisierung der Email fehlschlägt, wird die Email gelöscht',
 
-'moblog_image_size' => 'Bildgröße',
+'moblog_valid_from' =>
+'Gültige \'From\' Emails für Moblog',
 
-'moblog_thumb_size' => 'Vorschau-Größe',
+'valid_from_subtext' =>
+'Email-Adressen, von denen Sie diese Moblog-Emails senden. Lassen Sie das Feld leer, um das Senden von einer beliebigen Email-Adresse aus zu akzeptieren. Trennen Sie jede Email-Adresse durch ein Leerzeichen oder einen Zeilenumbruch.',
 
-'moblog_email_type' => 'Email-Kontotyp',
+'moblog_ignore_text' =>
+'Email-Text ignorieren',
 
-'moblog_email_address' => 'Email-Adresse',
+'ignore_text_subtext' =>
+'Kopieren Sie hier den Text, den Sie aus den Emails Ihres Moblogs löschen möchten. Nützlich zum Entfernen von Hotmail- und Yahoo-Signaturen.',
 
-'moblog_email_server' => 'Server für ankommende Emails',
+'moblog_upload_directory' =>
+'Upload-Verzeichnis',
 
-'server_example' => 'z.B.: mail.ihreseite.de',
+'moblog_image_size' =>
+'Bildgröße',
 
-'moblog_email_login' => 'Email-Konto: Benutzername',
+'moblog_thumb_size' =>
+'Thumbnail-Größe',
 
-'moblog_email_password' => 'Email-Konto: Passwort',
+'moblog_created' => 'Moblog erstellt',
 
-'data_encrypted' => 'Daten bei Übertragung verschlüsseln',
+'moblog_created_desc' => 'Das Moblog <b>%s</b> wurde erstellt.',
 
-'moblog_subject_prefix' => 'Moblog-Betreff-Prefix',
+'moblog_not_created' => 'Moblog nicht erstellt',
 
-'moblog_subject_subtext' => 'Frei lassen, um automatisch alle Emails anzunehmen.',
+'moblog_not_created_desc' => 'Dieses Moblog konnte nicht erstellt werden. Bitte überprüfen und beheben Sie die Fehler unten.',
 
-'moblog_ignore_text' => 'Email-Text ignorieren',
+'moblog_updated' => 'Moblog aktualisiert',
 
-'moblog_valid_from' => 'Gültige Absender-Adresse für das Moblog',
+'moblog_updated_desc' => 'Das Moblog <b>%s</b> wurde aktualisiert.',
 
-'valid_from_subtext' => 'Email-Adressen, unter denen Sie Moblog-Emails verschicken. Frei lassen, wenn Emails von allen Adressen akzeptiert werden sollen. Einzelne Email-Adressen mit Leerzeichen trennen oder auf neue Zeile setzen.',
+'moblog_not_updated' => 'Moblog nicht aktualisiert',
 
-'moblog_time_interval' => 'Zeit zwischen Prüfungen',
+'moblog_not_updated_desc' => 'Dieses Moblog konnte nicht aktualisiert werden. Bitte überprüfen und beheben Sie die Fehler unten.',
 
-'moblog_enabled' => 'Moblog aktiv?',
+'moblog_check_failure' => 'Moblo konnte nicht überprüft werden',
 
-'moblog_file_archive' => 'Dateiarchiv-Modus',
+'moblog_check_success' =>
+'Moblog erfolgreich geprüft',
 
-'file_archive_subtext' => 'Wenn aktiv, werden Einträge zu diesem Moblog nicht veröffentlicht, sondern nur im angegebenen Upload-Verzeichnis abgelegt.',
+'emails_done' =>
+'Abgerufene Emails:',
 
-'channel_id_subtext' => 'Wenn kein Channel ausgewählt ist, werden Einträge zu diesem Moblog nicht veröffentlicht, sondern im angegebenen Upload-Verzeichnis abgelegt.',
+'entries_added' =>
+'Hingefügte Einträge:',
 
-'moblog_auth_subtext' => 'Wenn aktiv, werden nur Emails mit Benutzernamen und Passwort berücksichtigt.',
+'attachments_uploaded' =>
+'Hochgeladene Dateianhänge:',
 
-'subject_prefix_subtext' => 'Um alle Emails einzuschließen, Prefix frei lassen.',
+'invalid_upload_directory' =>
+'Ungültiges Upload-Verzeichnis',
 
-'ignore_text_subtext' => 'Text, der aus Ihren Moblog-Emails gelöscht werden soll, hierher kopieren, z.B. um Yahoo- oder Hotmail-Signaturen zu entfernen.',
+'upload_directory_unwriteable' =>
+'Datei kann nicht in das Upload-Verzeichnis abgelegt werden',
 
-'interval_subtext' => 'Betrifft den {exp:moblog:check}-Tag. Wert in Minuten setzen; Dezimalstellen sind erlaubt.',
+'invalid_moblog' =>
+'Ungültige Moblog-Auswahl',
 
-'moblog_time_interval_subtext' => 'Beispiel: 1.5',
+// ------------------------
+// Processing Errors
+// ------------------------
 
-'pop3' => 'POP3',
+'no_cache' =>
+'Zugriff auf Moblog-Cache nicht möglich',
 
-'imap' => 'IMAP',
+'moblog_current' =>
+'Moblog ist aktuell',
 
-'moblog_template' => 'Moblog-Template',
+'no_server_connection' =>
+'Verbindung zum Email-Server nicht möglich',
 
-'moblog_formatting' => 'Standard-Formatierung für Template',
+'invalid_server_response' =>
+'Ungültige Serverantwort',
 
-'xhtml' => 'xhtml',
+'invalid_username' =>
+'Ungültiger Benutzername',
 
-'br' => '<br />',
+'invalid_password' =>
+'Ungültiges Passwort',
 
-'invalid_short_name' => 'Der Kurzname darf nur Buchstaben und Zahlen aber keine Leerzeichen enthalten.',
+'unable_to_retrieve_emails' =>
+'Email-Informationen waren nicht verfügbar',
 
-'moblog_taken_short_name' => 'Dieser Moblog-Name ist schon vergeben.',
+'no_valid_emails' =>
+'Es wurden keine gültigen Emails gefunden',
 
-'moblog_taken_name' => 'Dieser Moblog-Name ist schon vergeben.',
+'unable_to_parse' =>
+'E-Mail kann nicht geparst werden.',
 
-'moblog_missing_field' => 'Ein Pflichtfeld wurde nicht oder in ungültiger Weise ausgefüllt: %e',
+'authorization_failed' =>
+'Email-Autorisierung fehlgeschlagen für:',
 
-'moblog_created' => 'Moblog erstellt.',
+'undeletable_email' =>
+'Email kann nicht gelöscht werden',
 
-'moblog_updated' => 'Moblog-Einstellungen aktualisiert.',
+'invalid_channel' =>
+'Ungültiger Channel',
 
-'no_moblogs' => 'Derzeit gibt es keine Moblogs.',
+'invalid_file_data' =>
+'Ungültiger Dateianhang',
 
-'total_moblogs' => 'Gesamte Moblogs: ',
+'error_writing_attachment' =>
+'Fehler beim Schreiben des Dateianhangs',
 
-'moblog_view' => 'Moblogs',
-
-'moblog_update' => 'Moblog aktualisieren',
-
-'moblog_modify' => 'Einstellungen',
-
-'delete' => 'Löschen',
-
-'moblog_deleted' => 'Moblog gelöscht',
-
-'moblogs_deleted' => 'Moblogs wurden gelöscht',
-
-'moblog_delete_confirm' => 'Moblogs löschen',
-
-'moblog_delete_confirm_title' => 'Moblog löschen: Bestätigung',
-
-'moblog_delete_question' => 'Ausgewählte(s) Moblog(s) wirklich löschen?',
-
-'moblog__deleted' => ' Moblog wurde gelöscht ',
-
-'moblog_successful_check' => 'Moblog erfolgreich geprüft',
-
-'emails_done' => 'Emails entgegengenommen:',
-
-'entries_added' => 'Einträge hinzugefügt:',
-
-'attachments_uploaded' => 'Anhänge hochgeladen:',
-
-'no_cache' => 'Kein Zugriff auf Moblog Cache',
-
-'moblog_current' => 'Moblog ist aktuell',
-
-'no_server_connection' => 'Kann keine Verbindung zum Emailserver herstellen',
-
-'invalid_server_response' => 'Ungültige Serverantwort',
-
-'invalid_username' => 'Benutzername ungültig',
-
-'invalid_password' => 'Passwort ungültig',
-
-'unable_to_retrieve_emails' => 'Email-Information nicht verfügbar',
-
-'no_valid_emails' => 'Keine gültigen Emails gefunden.',
-
-'unable_to_parse' => 'Kann Email nicht lesen.',
-
-'authorization_failed' => 'Email-Autorisierung fehlgeschlagen für:',
-
-'undeletable_email' => 'Kann Email nicht löschen.',
-
-'invalid_channel' => 'Ungültiger Channel',
-
-'invalid_file_data' => 'Ungültige Daten im Anhang',
-
-'error_writing_attachment' => 'Fehler beim Speichern des Anhangs',
-
-'unable_to_resize' => 'Bildgröße nicht änderbar',
-
-'translate' => 'Update',
+'unable_to_resize' =>
+'Bildgröße kann nicht geändert werden',
 
 ''=>''
 );
 
-/* End of file moblog_lang.php */
-/* Location: ./system/user/language/deutsch/moblog_lang.php */
+// EOF

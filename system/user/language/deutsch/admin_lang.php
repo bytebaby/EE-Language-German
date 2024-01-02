@@ -10,7 +10,6 @@ $lang = array(
 
 'pconnect' => 'Dauernde Datenbank-Verbindung',
 
-
 /* Member List Config */
 'memberlist_asc' => 'Aufsteigend',
 
@@ -32,7 +31,6 @@ $lang = array(
 
 'xss_clean_uploads' => 'Gelten XSS-Filter für Datei-Upload?',
 
-
 /* Explanatory Blurbs */
 'channel_administration_blurb' => 'Dieser Bereich verwaltet die Channels, Voreinstellungen und inhaltsbezogene Sub-Systeme.',
 
@@ -42,8 +40,6 @@ $lang = array(
 
 'search_preferences' => 'Voreinstellungen für Suche',
 
-'search_results' => 'Suchergebnisse',
-
 'specialty_templates_blurb' => 'Diese Templates sind für spezielle Verwendungen wie Fehlermeldungen und das Senden von Email-Benachrichtigungen.',
 
 'system_admin_blurb' => 'Die meisten administrativen Einstellungen von ExpressionEngine werden in einem der fünf Bereiche verwaltet:',
@@ -51,7 +47,6 @@ $lang = array(
 'system_preferences_blurb' => 'In diesem Bereich können Sie die Systemkonfiguration und die globalen Einstellungen verwalten.',
 
 'utilities_blurb' => 'Dieser Bereich enthält Dienstprogramme, die Ihnen helfen, ExpressionEngine professionell zu konfigurieren.',
-
 
 /* Extensions Stuff */
 'available_extensions' => 'Verfügbare Erweiterungen',
@@ -120,7 +115,6 @@ $lang = array(
 
 'webmaster_name' => 'Webmaster oder Websitename für automatisch generierte Emails',
 
-
 /* Admin Page */
 '12_hour' => '12 Stunden mit AM/PM',
 
@@ -141,8 +135,6 @@ $lang = array(
 'advanced_users_only' => 'Nur für fortgeschrittene Anwender',
 
 'all_caching' => 'Alle Caches',
-
-'allow_avatar_uploads' => 'Mitgliedern das Heraufladen von Avataren erlauben?',
 
 'allow_member_loc_notes' => 'Wenn auf &quot;Nein&quot; gesetzt, werden Datum und Zeit nach den Haupteinstellungen gesetzt.',
 
@@ -198,8 +190,6 @@ $lang = array(
 
 'batchmode_explanation' => 'Batch Mode teilt ein großes Mailing in kleinere Gruppen auf, um sie in Intervallen zu versenden. Dies empfiehlt sich bei Webhosting-Accounts.',
 
-'blacklist_all_ips' => 'Alle IPs auf die Blacklist',
-
 'browse' => 'Durchsuchen',
 
 'cache_deleted' => 'Cache-Dateien wurden gelöscht',
@@ -220,7 +210,13 @@ $lang = array(
 
 'captcha_require_members' => 'Captcha auch bei eingeloggten Nutzern einsetzen?',
 
-'captcha_url' => 'Vollständiger URL zum Captcha-Verzeichnis',
+'use_recaptcha' => 'Use ReCaptcha v3?',
+
+'recaptcha_site_key' => 'ReCaptcha Site-Schlüssel',
+
+'recaptcha_site_secret' => 'ReCaptcha Geheimer Schlüssel der Site',
+
+'recaptcha_score_threshold' => 'Schwellenpunktzahl',
 
 'categories' => 'Kategorien',
 
@@ -308,7 +304,7 @@ $lang = array(
 
 'default_html_buttons' => 'Standard-HTML-Buttons',
 
-'default_member_group' => 'Standard-Mitgliedergruppe für neue Mitglieder',
+'default_primary_role' => 'Standard-Mitgliedergruppe für neue Mitglieder',
 
 'default_site_timezone' => 'Website-Zeitzone',
 
@@ -361,8 +357,6 @@ $lang = array(
 'empty_profile_trigger' => 'Ein Profil-Trigger-Wort muss angegeben werden',
 
 'empty_stmp_fields' => 'Das %s Feld ist für SMTP-Bedingung.',
-
-'enable_avatars' => 'Erlaube Avatare',
 
 'enable_censoring' => 'Erlaube Wortzensur?',
 
@@ -905,10 +899,6 @@ $lang = array(
 'throttling_cfg' => 'Drosselung-Konfiguration',
 
 'throttling_disabled' => 'Drosselung deaktiviert',
-
-'thumbnail_prefix' => 'Thumbnail-Suffix',
-
-'thumbnail_prefix_exp' => 'Dieses Suffix wird allen autogenerierten Thumbnails angefügt. Beispiel: foto_thumb.jpg',
 
 'time_format' => 'Standard Zeitformat',
 

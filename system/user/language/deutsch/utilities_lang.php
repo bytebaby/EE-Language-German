@@ -4,20 +4,27 @@ $lang = array(
 
 'system_utilities' => 'System-Dienstprogramme',
 
-
 /* Menu */
 
-'backup_utility' => 'Backup-Tool',
+'backup_database' => 'Datenbank sichern',
 
 'cache_manager' => 'Cache-Manager',
 
 'communicate' => 'Rundmail',
 
+'general_utilities' => 'General Utilities',
+
 'cp_translation' => '<abbr title="Control-Panel">CP</abbr>-Übersetzung',
+
+'cp_translations' => 'CP-Übersetzung',
+
+'sync_conditional_fields' => 'Bedingte Felder synchronisieren',
 
 'data_operations' => 'Datenbearbeitung',
 
-'debug_extensions' => 'Extensions von Fehlern bereinigen',
+'manage_extensions' => 'Add-ons verwalten',
+
+'debug_tools' => 'Tools überprüfen',
 
 'default' => 'Standard',
 
@@ -31,9 +38,9 @@ $lang = array(
 
 'query_form' => 'Abfrage-Form',
 
-'search_and_replace' => 'Suchen und Ersetzen',
+'search_and_replace' => 'Suchen & Ersetzen',
 
-'sent' => 'Senden',
+'sent' => 'Gesendet',
 
 'sql_manager' => 'SQL-Manager',
 
@@ -41,11 +48,10 @@ $lang = array(
 
 'statistics' => 'Statistiken',
 
-
 /* Communicate */
-'add_member_groups' => 'Mitgliedergruppe(n) hinzufügen',
+'add_member_roles' => 'Rolle(n) hinzufügen',
 
-'add_member_groups_desc' => 'Senden Sie eine Email an <b>alle</b> Mitglieder in den ausgewählten Gruppen.',
+'add_member_roles_desc' => 'Senden Sie eine Email an <b>alle</b> Mitglieder mit den ausgewählten Rollen.',
 
 'attachment' => 'Dateianhang',
 
@@ -56,6 +62,8 @@ $lang = array(
 'bcc_recipients_desc' => '<abbr title="Blind Carbon Copied">BCC</abbr>: Email-Adresse(n). Trennen Sie mehrere Empfänger durch ein Komma.',
 
 'btn_send_email' => 'Email senden',
+
+'send_email' => 'Email senden',
 
 'btn_send_email_working' => 'Sendet...',
 
@@ -95,6 +103,7 @@ $lang = array(
 
 'your_email' => 'Ihre Email',
 
+'view_email_cache' => 'Gesendete Emails',
 
 /* CP Translation */
 'cannot_access' => 'darauf kann nicht zugegriffen werden',
@@ -125,10 +134,33 @@ $lang = array(
 
 'translations_saved' => 'Übersetzungen gespeichert',
 
+/* Sync conditional fields */
+'no_channels_available' => 'Keine Channels verfügbar.',
+
+'sync_required' => 'Synchronisierung erforderlich',
+
+'sync_channel_entries' => 'Channel-Einträge synchronisieren',
+
+'field_conditions_sync_success' => 'Bedingte Feldlogik aktualisiert',
+
+'field_conditions_sync_success_desc' => 'Alle zugehörigen Channel-Einträge wurden aktualisiert, um die neueste bedingte Logik zu verwenden.',
+
+'field_conditions_sync_existing_entries' => 'Vorhandene Einträge',
+
+'field_conditions_sync_desc' => 'Synchronisierung von <b>%d</b> Einträgen von Channels: %s',
+
+'field_conditions_syncing_conditional_logic' => 'Bedingte Logik synchronisieren',
+
+'field_conditions_sync_conditional_logic' => 'Bedingte Logik synchronisieren',
+
+'field_conditions_sync_in_progress_message' => 'Verlassen Sie diesen Bildschirm nicht, während die Synchronisierung läuft.',
+
+'btn_sync_conditional_logic' => 'Bedingte Logik synchronisieren',
+
+'btn_sync_conditional_logic_working' => 'Bedingte Logik wird synchronisiert...',
 
 /* PHP Info */
 'php_info_title' => '<abbr title="Preprocessor Hypertext Processor">PHP</abbr> %s Info',
-
 
 /* Cache Manager */
 'all_caches' => 'Alle Caches',
@@ -150,7 +182,6 @@ $lang = array(
 'tags' => 'Tags',
 
 'templates' => 'Templates',
-
 
 /* Search and Replace */
 'btn_sandr' => 'Suchen und Ersetzen',
@@ -192,7 +223,6 @@ $lang = array(
 'site_preferences' => 'Site-Einstellungen',
 
 'template_groups' => 'Template-Gruppen',
-
 
 /* Import Converter */
 'assign_fields' => 'Felder zuordnen',
@@ -241,7 +271,6 @@ $lang = array(
 
 'import_converter' => 'Import-Datei konvertieren',
 
-
 'import_password_warning' => '<b>Warnung</b>: Wenn Sie kein Passwort vergeben, wird bei jedem Mitglied automatisch ein Passwort gesetzt. Diese Mitglieder müssen dann im Nachhinein über den "Passwort vergessen"-Link ein neues Passwort setzen.',
 
 'member_file' => 'Mitgliederdatei',
@@ -276,7 +305,6 @@ $lang = array(
 
 'xml_code' => 'XML-Code',
 
-
 /* Member Import */
 'btn_add_fields' => 'Felder hinzufügen',
 
@@ -286,8 +314,7 @@ $lang = array(
 
 'confirm_import' => 'Import bestätigen',
 
-'confirm_import_warning' => '<p class="caution"><span title="Vorsichtig vorgehen"></span> <b>Vorsicht</b>: Wenn die <abbr title="Extensible Markup Language">XML</abbr>-Datei einen Tag names "<b>member_id</b>" enthält, stoppen.</p>
-<p>Mitglieder in der Datenbank mit übereinstimmenden <abbr title="Identifier">ID</abbr>s werden <b>überschrieben</b>, wenn dieser Import bestätigt wird.</p>',
+'confirm_import_warning' => '<p class="caution"><span title="Vorsichtig vorgehen"></span> <b>Vorsicht</b>: Wenn die <abbr title="Extensible Markup Language">XML</abbr>-Datei einen Tag names "<b>member_id</b>" enthält, stoppen.</p><p>Mitglieder in der Datenbank mit übereinstimmenden <abbr title="Identifier">ID</abbr>s werden <b>überschrieben</b>, wenn dieser Import bestätigt wird.</p>',
 
 'custom_fields' => 'Benutzerdefinierte Felder',
 
@@ -329,6 +356,8 @@ $lang = array(
 
 'member_group' => 'Mitgliedergruppe',
 
+'role' => 'Rolle',
+
 'member_import_error' => 'Achtung: Import nicht abgeschlossen',
 
 'member_import_error_desc' => 'Der Import konnte nicht abgeschlossen werden. Bitte beheben Sie die Fehler unten.',
@@ -348,7 +377,6 @@ $lang = array(
 'xml_parse_error' => 'XML kann nicht geparst werden',
 
 'xml_parse_error_desc' => 'Überprüfen Sie die XML-Datei auf falsche Syntax.',
-
 
 /* Database Backup Utility */
 'backing_up' => 'Backup läuft...',
@@ -370,7 +398,6 @@ $lang = array(
 'not_enough_free_disk_space' => 'Es ist nicht genügend freier Speicherplatz zum Schreiben der Sicherung vorhanden. %s benötigt.',
 
 'table_count' => '<b>%s</b> Tabellen',
-
 
 /* SQL Query Form */
 'affected_rows' => 'Betroffene Zeilen',
@@ -403,15 +430,15 @@ $lang = array(
 
 'sql_query_form_abbr' => '<abbr title="Structured Query Language">SQL</abbr>-Abfrageformular',
 
+'query' => 'Query',
+
 'sql_query_to_run' => 'Datenbank-Abfrage',
 
-'sql_warning' => '<p><b>Warnung</b>: <b class="no">Nur für erfahrene Benutzer.</b> Bitte sehr vorsichtig sein mit diesem Werkzeug.</p>
-<p>Abhängig von der benutzen Syntax kann diese Funktion ungewünschte Ergebnisse zur Folge haben. Bitte unbedingt ein Datenbank-Backup machen und die Dokumentation lesen.</p>',
+'sql_warning' => '<p><b>Warnung</b>: <b class="no">Nur für erfahrene Benutzer.</b> Bitte sehr vorsichtig sein mit diesem Werkzeug.</p><p>Abhängig von der benutzen Syntax kann diese Funktion ungewünschte Ergebnisse zur Folge haben. Bitte unbedingt ein Datenbank-Backup machen und die Dokumentation lesen.</p>',
 
 'total_results' => 'Ergebnisse insgesamt',
 
 'type_phrase' => 'Phrase eingaben...',
-
 
 /* Statistics */
 'channel_titles' => 'Channel-Einträge',
@@ -433,7 +460,6 @@ $lang = array(
 'sync' => 'Synchronisieren',
 
 'sync_completed' => 'Synchronisation erfolgt',
-
 
 /* SQL Manager */
 'database_tables' => 'Datenbank-Tabellen',
@@ -472,9 +498,63 @@ $lang = array(
 
 'uptime' => 'Betriebszeit',
 
+/* File Usage */
+
+    'update_file_usage' => 'Dateinutzung aktualisieren',
+
+    'update_file_usage_explained_desc' => 'Führen Sie dieses Dienstprogramm aus, um alle in der Datenbank gespeicherten Dateien von Websites vor ExpressionEngine 7 in das neue Dateiformat von ExpressionEngine 7 zu konvertieren. Dies muss abgeschlossen werden, bevor neuere Dateimanagerfunktionen verwendet werden können. <a href="%s">Lesen Sie mehr über den Kompatibilitätsmodus in der Dokumentation</a> <br /><br />
+
+    Es wird empfohlen, dass Sie sicherstellen, dass alle installierten Add-Ons mit ExpressionEngine 7 und höher kompatibel sind, und dass Sie zuerst eine <a href="%s">Sicherung Ihrer Datenbank</a> erstellt haben.<br /><br />
+    
+    Rufen Sie nach Abschluss des Aktualisierungsvorgangs die <a href="%s">Inhalts- und Designeinstellungen</a> auf, um den Kompatibilitätsmodus für den Dateimanager zu deaktivieren.<br /><br />',
+
+    'update_file_usage_desc' => 'Aktualisiert den Inhalt in %d Datenbanktabellen',
+
+    'update_file_usage_started' => 'Aktualisierung der Dateinutzung gestartet',
+
+    'update_file_usage_completed' => 'Aktualisierung der Dateinutzung abgeschlossen. %s Datenbanktabellen waren betroffen.',
+
+    'update_file_usage_success' => 'Dateinutzung aktualisiert',
+
+    'update_file_usage_success_desc' => 'Die Dateidaten wurden in das neue Format konvertiert',
+
+    'update_file_usage_fail' => 'Die Dateinutzung kann nicht aktualisiert werden',
+
+    'file_manager_compatibility_mode_warning' => 'Der Dateimanager ist auf den Kompatibilitätsmodus eingestellt',
+
+    'file_manager_compatibility_mode_warning_desc' => 'ExpressionEngine 7.0 ändert die Art und Weise, wie Daten für Dateien gespeichert werden. Diese Änderungen können Probleme mit Add-Ons von Drittanbietern verursachen, die mit dem neuen Dateimanager nicht kompatibel sind.<br /><br />
+
+    Um unerwartete Probleme zu vermeiden, haben wir einige Funktionen deaktiviert, indem wir den Dateimanager so eingestellt haben, dass er im Kompatibilitätsmodus ausgeführt wird. <a href="%s">Lesen Sie mehr über den Kompatibilitätsmodus in der Dokumentation</a><br /><br />
+
+Sobald Sie bereit sind, die neuen Dateimanager-Funktionen zu erleben, führen Sie bitte das Dienstprogramm <a href="%s">Dateiverwendung aktualisieren</a> aus und besuchen Sie dann <a href="%s">Inhalts- und Designeinstellungen</a>. a>, um den Kompatibilitätsmodus zu deaktivieren.',
+
+/* Search Reindex */
+
+'search_reindex_fail' => 'Neuindizierung fehlgeschlagen',
+
+'search_reindex' => 'Neuindexierung Suche',
+
+'search_reindex_desc' => '%s Channel wird neu indiziert',
+
+'reindex_success' => 'Neuindizierung komplett',
+
+'reindex_success_desc' => '',
+
+'btn_reindex' => 'Neuindex',
+
+'btn_reindex_working' => 'Neuindizierung',
+
+'all_sites' => 'Alle Websites neu indizieren?',
+
+'all_sites_desc' => 'Indizieren Sie die Channel-Einträge auf allen Websites oder nur auf dieser neu?',
+
+'search_reindexed_started' => 'Die Neuindizierung der Suche wurde gestartet.',
+
+'search_reindexed_completed' => 'Neuindizierung der Suche abgeschlossen. %s Einträge wurden neu indiziert.',
+
 /* Export Email Addresses */
 
-'mass_notification_export' => 'Massenbenachrichtigung-Export',
+'mass_notification_export' => 'Benutzer-Export',
 
 'export_email_addresses_title' => 'Exportiere eine <abbr title="Comma Separated Values">CSV</abbr>-Datei',
 
@@ -495,6 +575,74 @@ $lang = array(
 'validate_addresses_desc' => 'Überprüfen Sie die Email auf das korrekte Format und prüfen Sie, ob die Domäne vorhanden ist.',
 
 'export_email_addresses_fail' => 'Export fehlgeschlagen',
+
+/* Debug Tools */
+
+'debug_tools_overview' => 'Überblick',
+
+'debug_tools_instruction' => '<a href="%s">Klicken Sie hier</a> um zu Entwickler &rarr; Dienstprogrammen &rarr; und Debug-Tools im Control Panel für Details und Fehlerbeseitigungen zu gelangen.',
+
+'debug_tools_debug_tags' => 'Überprüfte Template-Tags',
+
+'debug_tools_installed' => 'Installed',
+
+'debug_tools_tag' => 'Tag',
+
+'debug_tools_addon' => 'Add-on',
+
+'debug_tools_count' => 'Anzahl',
+
+'debug_tools_broken_tags_found' => 'Es wurden %s fehlerhafte oder ungültige Template Tags gefunden.',
+
+'debug_tools_corrupt_categories' => 'Fehlerhafte Kategorien',
+
+'debug_tools_corrupt_categories_found' => 'Es wurden %s fehlerhafte Kategorien gefunden.',
+
+'tag_inclusions' => 'Tag -Zugehörigkeit',
+
+'debug_tools_fix_corrupt_categories' => 'Fehlerhafte Kategorien korrigieren',
+
+'debug_tools_categories_fixed' => 'Fehlerhafte Kategorien wurden repariert',
+
+'debug_tools_duplicate_layout_tabs' => 'Channel-Layout-Tabs duplizieren',
+
+'debug_tools_duplicate_layout_tabs_found' => 'Es wurden %s duplizierte Channel-Layout-Tabs gefunden.',
+
+'debug_tools_remove_duplicate_layout_tabs' => 'Duplizierte Layout-Tabs entfernen',
+
+'debug_tools_fieldtypes' => 'Überprüfte Feldtypen',
+
+'debug_tools_show_missing_fieldtypes' => 'Fehlende Feldtypen anzeigen',
+
+'debug_tools_found_missing_fieldtypes' => 'ES wurden %s fehlende Feldtypen.',
+
+'debug_tools_missing_fieldtypes' => 'Fehlende Feldtypen',
+
+'debug_tools_missing_fieldtypes_desc' => 'Die folgenden Feldtypen befinden sich in der Datenbank, sind jedoch nicht ordnungsgemäß installiert. Dies führt zu Problemen beim Bearbeiten von Kanälen, Feldern und Einträgen. Um dies zu beheben, installieren Sie entweder die fehlenden Addons oder entfernen Sie die Felder aus ihren Tabellen.',
+
+'debug_tools_no_missing_fieldtypes_desc' => 'In der Datenbank fehlen keine Feldtypen. Großartig!',
+
+'debug_tools_installed_unused_fieldtypes' => 'Installierte, aber nicht verwendete Feldtypen',
+
+'debug_tools_installed_unused_fieldtypes_desc' => 'Diese Feldtypen sind installiert, werden jedoch nicht verwendet.',
+
+'debug_tools_all_used_fieldtypes' => 'Alle verwendeten Feldtypen',
+
+'debug_tools_members' => 'Debugge Mitglieder',
+
+'debug_tools_debug_duplicate_template_groups' => 'Doppelte Template-Gruppen',
+
+'duplicate_template_groups_found' => 'Wir haben %s doppelte Template-Gruppen gefunden.',
+
+'group_name' => 'Gruppenname',
+
+'group_id' => 'Gruppen-ID',
+
+'no_duplicate_template_groups_found' => 'Keine doppelten Template-Gruppen gefunden.',
+
+'review_duplicate_template_groups' => 'Überprüfen Sie doppelte Template-Gruppen',
+
+'back_up_db_and_templates' => 'Stellen Sie sicher, dass Sie eine Sicherungskopie Ihrer Datenbank und Templates haben, bevor Sie Änderungen vornehmen',
 
 );
 

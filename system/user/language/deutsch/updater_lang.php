@@ -35,6 +35,18 @@ $lang = array(
 'updating_to_from' =>
 'Aktualisierung <b>%s</b> von %s zu %s',
 
+ 'prepMajorUpgrade_step' =>
+'Laufende Kontrollen und Vorbereitungen',
+
+'preflight_moving_addons_to_user_folder' =>
+'Verschieben von Add-Ons in den Benutzerordner',
+
+'preflight_verifying_php_version' =>
+'Überprüfen der PHP-Version vor dem Upgrade auf ExpressionEngine 7',
+
+'preflight_verifying_php_version_error' =>
+'ExpressionEngine 7 erfordert PHP 7.2.5 oder höher.<br>Aktuelle PHP-Version: %s',
+
 'preflight_step' =>
 'Preflight-Prüfung',
 
@@ -47,15 +59,28 @@ $lang = array(
 'updateFiles_step' =>
 'Dateien aktualisieren',
 
-'files_not_writable' =>
-'Die folgenden Pfade sind nicht beschreibbar:
+'updateAddons_step' =>
+'Überprüfen von Addons auf automatische Updates',
+
+'turnSystemOn_step' =>
+'Turning system on',
+
+'theme_folder_path_invalid' =>
+    'Der folgende Pfad des Theme-Verzeichnisses ist ungültig:
 
 %s
 
-Informationen zur Fehlerbehebung finden Sie in der Dokumentation auf <a href="%s" target="_blank">updating ExpressionEngine</a>.',
+Bitte stellen Sie den korrekten Wert ein, siehe <a href="%s" target="_blank">the documentation</a>.',
 
-'could_not_download' =>
-'Update konnte nicht heruntergeladen werden. Ihre Internetverbindung ist möglicherweise inaktiv oder erreicht die ExpressionEngine-Server auf andere Weise nicht.
+    'files_not_writable' =>
+    'Die folgenden Pfade sind nicht beschreibbar:
+
+%s
+
+Informationen zur Fehlerbehebung finden Sie in der Dokumentation, siehe <a href="%s" target="_blank">Updating</a>.',
+
+    'could_not_download' =>
+    'Update konnte nicht heruntergeladen werden. Ihre Internetverbindung ist möglicherweise unterbrochen oder kann die ExpressionEngine-Server auf andere Weise nicht erreichen.
 
 Statuscode zurückgegeben: %s',
 
@@ -121,6 +146,10 @@ Stellen Sie sicher, dass Sie über die neueste Version jeder Datei verfügen, un
 
 'update_rolledback_desc' =>
 'Wenden Sie sich an den Support, wenn Sie weiterhin Probleme bei der Aktualisierung haben oder Sie können auch ein <a href=\'%s\' rel=\'external\'manuelles Update</a> durchführen.',
+
+'update_version_warning' => 'Bitte überprüfen Sie den Online-Status des Systems',
+
+'update_version_warning_desc' => 'Ihr aktueller Systemstatus ist auf <b>%s</b> gesetzt. Wenn Sie dies ändern müssen, gehen Sie zu den Systemeinstellungen.',
 
 ''=>''
 );

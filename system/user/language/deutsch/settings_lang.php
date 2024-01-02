@@ -13,13 +13,19 @@ $lang = array(
 
 'consent_requests' => 'Einwillingungsanfragen',
 
-'content_and_design' => 'Inhalt & Design',
+'content_and_design' => 'Inhalte & Bilder',
 
 'debugging_output' => 'Debugging & Output',
 
-'general_settings' => 'Allgemeine Einstellungen',
+'logging' => 'Protokollierung',
 
-'hit_tracking' => 'Hit-Tracking',
+'general' => 'Allgemeines',
+
+'general_settings' => 'Basis-Einstellungen',
+
+'settings' => 'Cookies & Mitglieder',
+
+'tracking' => 'Tracking',
 
 'html_buttons' => '<abbr title="Hyper-Text Markup Language">HTML</abbr>-Buttons',
 
@@ -30,6 +36,8 @@ $lang = array(
 'messages' => 'Nachrichten',
 
 'outgoing_email' => 'Ausgehende Email',
+
+'email_settings' => 'Email-Einstellungen',
 
 'pages_settings' => 'Seiten-Einstellungen',
 
@@ -45,7 +53,6 @@ $lang = array(
 
 'word_censoring' => 'Wort-Zensur',
 
-
 /* General Settings */
 '12_hour' => '12 Stunden mit AM/PM',
 
@@ -60,6 +67,10 @@ $lang = array(
 'date_time_fmt' => 'Datum &amp; Zeitformat',
 
 'date_time_settings' => 'Datum &amp; Zeiteinstellungen',
+
+ 'week_start' => 'Wochenstart',
+
+ 'week_start_desc' => 'Der Tag, an dem die neue Woche beginnt.',
 
 'defaults' => 'Standardwerte',
 
@@ -77,21 +88,25 @@ $lang = array(
 
 'manual' => 'Benutzerhandbuch',
 
-'offline' => 'Offline',
-
-'online' => 'Online',
-
 'show_ee_news' => 'Zeige ExpressionEngine-News?',
 
 'show_ee_news_desc' => 'Wenn aktiviert, werden die neuesten Nachrichten über ExpressionEngine auf der Startseite des Control Panels angezeigt.',
 
 'site_default' => 'Die Standardeinstellung verwenden?',
 
+'site_license_key' => 'Site-Lizenzschlüssel',
+
+'site_license_key_desc' => 'Ihr Lizenzschlüssel von ExpressionEngine.com, der dieser Site entspricht.',
+
 'site_name' => 'Name',
 
 'site_online' => 'Website online?',
 
 'site_online_desc' => 'Wenn deaktiviert, können nur Super-Admins und Mitgliedergruppen mit Berechtigungen Ihre Website durchsuchen.',
+
+'system_online' => 'System online?',
+
+'system_online_desc' => 'Wenn diese Option deaktiviert ist, können nur Superadministratoren und Mitglieder mit Rollen, die über die entsprechenden Berechtigungen verfügen, die Websites dieser ExpressionEngine-Installation durchsuchen. <br>Einzelne <code>Website online?</code>-Einstellungen für MSM-Sites können im Abschnitt <a href="%s">Sites</a> der Systemsteuerung verwaltet werden',
 
 'site_short_name' => 'Kurzname',
 
@@ -102,7 +117,6 @@ $lang = array(
 'version_autocheck' => 'Automatisch auf neue Version prüfen',
 
 'version_autocheck_desc' => 'Bei der Einstellung <b>Automatisch</b> sucht ExpressionEngine automatisch nach neueren Versionen der Software.',
-
 
 /* URLs and Path Settings */
 'base_path' => 'Standardbasispfad',
@@ -149,6 +163,8 @@ $lang = array(
 
 'themes_path_desc' => 'Absoluter Pfad zum <mark>Themes</mark>-Verzeichnis.',
 
+'invalid_theme_folder_path' => 'Dieses Feld muss einen gültigen Pfad zum Verzeichnis ExpressionEngine <code>themes</code> enthalten, wie <code>{base_path}/themes</code>.',
+
 'themes_url' => 'Themes-Verzeichnis',
 
 'themes_url_desc' => '<abbr title="Uniform Resource Location">URL</abbr>-Adresse des <mark>Themes</mark>-Verzeichnisses.',
@@ -163,7 +179,6 @@ $lang = array(
 
 'url_title_separator_opt_under' => 'Unterstrich (mehrere_woerter)',
 
-
 /* Outgoing Email */
 'email_charset' => 'Zeichenkodierung',
 
@@ -176,6 +191,10 @@ $lang = array(
 'email_smtp_crypto' => 'Verbindungstyp',
 
 'email_smtp_crypto_desc' => 'Anweisungen erhalten Sie von Ihrem SMTP-Anbieter.',
+
+'tls_version' => 'TLS Version',
+
+'tls_version_desc' => 'Wählen Sie bei Verwendung von TLS die von Ihrem SMTP-Anbieter verwendete Version aus.',
 
 'empty_stmp_fields' => 'Dieses Feld ist für SMTP erforderlich.',
 
@@ -224,7 +243,6 @@ $lang = array(
 'word_wrap' => 'Zeilenumbruch aktivieren?',
 
 'word_wrap_desc' => 'Wenn aktiviert, werden lange Textzeilen auf eine lesbarere Breite umgebrochen.',
-
 
 /* Debugging & Output */
 'caching_driver' => 'Caching-Treiber',
@@ -291,7 +309,6 @@ $lang = array(
 
 'use_newrelic_desc' => 'Wenn auf <b>ja</b> gesetzt, wird New Relic <a href="https://docs.newrelic.com/docs/browser/new-relic-browser/page-load-timing-resources/instrumentation-browser-monitoring" rel="external">Real User Monitoring JavaScript</a> zu allen Seiten hinzugefügt.',
 
-
 /* Content & Design */
 'auto_assign_cat_parents' => 'Kategorie-Eltern zuordnen?',
 
@@ -314,6 +331,10 @@ $lang = array(
 'enable_sql_caching' => 'Dynamische Channel-Abfragen im Cache speichern?',
 
 'enable_sql_caching_desc' => 'Wenn aktiviert, wird die Geschwindigkeit von dynamisch generierten Seiten verbessert. <b>Nicht</b> benutzen, wenn Funktionen wie "Zukünftige Einträge" oder "Vergangene Einträge" benutzt werden.',
+
+'file_manager_compatibility_mode' => 'Dateimanager im Kompatibilitätsmodus ausführen?',
+
+'file_manager_compatibility_mode_desc' => 'Der Kompatibilitätsmodus speichert Dateien im Dateiformat von ExpressionEngine-Versionen vor Version 6. Der Kompatibilitätsmodus deaktiviert viele neuere Dateimanagerfunktionen und verhindert Probleme mit Add-Ons, die nicht mit ExpressionEngine 7+ kompatibel sind',
 
 'gd' => 'GD',
 
@@ -343,7 +364,6 @@ $lang = array(
 
 'thumbnail_suffix_desc' => 'Wird zu allen automatisch generierten Thumbnails hinzugefügt. <b>Beispiel</b>: photo_thumb.jpg',
 
-
 /* Comment Settings */
 'all_comments' => 'Alle Kommentare',
 
@@ -364,7 +384,6 @@ $lang = array(
 'enable_comments_desc' => 'Wenn aktiviert, können Channels das Kommentarmodul verwenden.',
 
 'options' => 'Optionen',
-
 
 /* Template Settings */
 'max_tmpl_revisions' => 'Maximale Überarbeitungen?',
@@ -389,15 +408,14 @@ $lang = array(
 
 'template_manager' => 'Template-Manager',
 
-
 /* Hit Tracking */
 'dynamic_tracking_disabling' => 'Schwellenwert aussetzen?',
 
 'dynamic_tracking_disabling_desc' => 'Das Tracking wird eingestellt, wenn die Zahl überschritten wird.</em> <em>Das Online-User-Tracking muss hierfür aktiviert sein. <a href="%s" ref="external">Mehr erfahren</a>',
 
-'enable_entry_view_tracking' => 'Enable entry view tracking?',
+'enable_entry_view_tracking' => 'Tracking der Eintrags-Zugriffe aktivieren?',
 
-'enable_entry_view_tracking_desc' => 'Wenn aktiviert, zählt ExpressionEngine, wie oft ein Kanaleintrag angezeigt wird.',
+'enable_entry_view_tracking_desc' => 'Wenn aktiviert, zählt ExpressionEngine, wie oft ein Eintrag aufgerufen wurde.',
 
 'enable_hit_tracking' => 'Tracking für Template-Zugriffe aktivieren?',
 
@@ -407,12 +425,15 @@ $lang = array(
 
 'enable_online_user_tracking_desc' => 'Wenn aktiviert, trackt ExpressionEngine angemeldete Benutzer.',
 
+'enable_tracking_cookie' => 'Tracker-Cookie aktivieren?',
+
+'enable_tracking_cookie_desc' => 'Wenn diese Option aktiviert ist, setzt ExpressionEngine bei jedem Seitenbesuch ein <code>exp_tracker</code>-Cookie, um die Navigation durch den Browserverlauf zu ermöglichen. Das Deaktivieren kann das Umleitungsverhalten einiger Formulare im Front-End beeinflussen.',
+
 'log_referrers' => 'Referrer tracken?',
 
 'log_referrers_desc' => 'Wenn aktiviert, wird ExpressionEngine alle eingehenden Links tracken.',
 
 'max_referrers' => 'Wieviele Referrers sollen gesichert werden?',
-
 
 /* Word Censoring */
 'censor_replacement' => 'Zeichen ersetzen',
@@ -426,7 +447,6 @@ $lang = array(
 'enable_censoring' => 'Zensur aktivieren?',
 
 'enable_censoring_desc' => 'Wenn aktiviert, werden die aufgelisteten Wörter durch die angegebenen Zeichen ersetzt.',
-
 
 /* Member Settings */
 'allow_member_localization' => 'Erlauben Sie Mitgliedern, Zeitvorgaben festzulegen?',
@@ -445,7 +465,7 @@ $lang = array(
 
 'declined_member_notification_desc' => 'Wenn aktiviert, werden Mitglieder per Email benachrichtigt, wenn ihre Registrierung abgelehnt wurde.',
 
-'default_member_group' => 'Standard-Mitgliedergruppe',
+'default_primary_role' => 'Standard-Mitgliedergruppe',
 
 'mbr_notification_emails' => 'Benachrichtigungsempfänger',
 
@@ -497,7 +517,6 @@ $lang = array(
 
 'require_terms_of_service_desc' => 'Wenn aktiviert, müssen neue Mitglieder bei der Registrierung den Nutzungsbedingungen zustimmen.',
 
-
 /* Menu Manager */
 'add_menu_item' => 'Menüpunkt hinzufügen',
 
@@ -509,7 +528,7 @@ $lang = array(
 
 'edit_menu_item' => 'Menüpunkt bearbeiten',
 
-'edit_menu_set' => 'Menü-Set bearbeiten',
+'edit_menu_set' => 'Hauptmenü-Set bearbeiten',
 
 'menu_addon' => 'Add-On',
 
@@ -559,16 +578,15 @@ $lang = array(
 
 'set_assigned' => 'Zugeordnet',
 
-'set_member_groups' => 'Mitgliedergruppe(n)?',
+'set_roles' => 'Mitglieder-Rolle(n)?',
 
-'set_member_groups_desc' => 'Mitgliedergruppe(n) auswählen, denen dieses Menü zugeordnet werden soll.',
+'set_roles_desc' => 'Rolle(n) für dieses Menü auswählen.',
 
 'set_name' => 'Name',
 
 'submenu' => 'Submenü',
 
 'submenu_desc' => 'Links in Dropdown',
-
 
 /* Messages */
 'attachment_settings' => 'Einstellungen für Dateianhänge',
@@ -607,12 +625,7 @@ $lang = array(
 
 'prv_msg_upload_url_desc' => '<abbr title="Uniform Resource Location">URL</abbr>-Adresse für das Verzeichnis der <mark>Dateianhänge</mark>.',
 
-
 /* Avatars */
-'allow_avatar_uploads' => 'Erlaube Avatar-Uploads?',
-
-'allow_avatar_uploads_desc' => 'Wenn aktiviert, können Mitglieder ihre eigenen Avatare hochladen.',
-
 'avatar_file_restrictions' => 'Einschränkungen für Avatordateien',
 
 'avatar_max_height' => 'Maximale Höhe',
@@ -630,11 +643,6 @@ $lang = array(
 'avatar_url' => 'Avatar-Verzeichnis',
 
 'avatar_url_desc' => '<abbr title="Uniform Resource Location">URL</abbr>-Adresse des <mark>Avatar</mark>-Verzeichnisses.',
-
-'enable_avatars' => 'Avatare erlauben?',
-
-'enable_avatars_desc' => 'Wenn aktiviert, können Mitglieder Avatare in Kommentaren und Foren verwenden.',
-
 
 /* CAPTCHA */
 'captcha_font' => 'TrueType-Font benutzen?',
@@ -665,6 +673,23 @@ $lang = array(
 
 'require_captcha_desc' => 'Wenn aktiviert, müssen Besucher ein <abbr title="Completely Automated Public Turing test to tell Computers and Humans Apart">CAPTCHA</abbr>-Feld in den Formularen auf der Website ausfüllen.',
 
+'recaptcha_settings_title' => 'reCAPTCHA v3-Einstellungen',
+
+'use_recaptcha' => 'Benutze reCAPTCHA  v3?',
+
+'use_recaptcha_desc' => 'Wenn aktiviert, verwendet das System reCAPTCHA v3. Bitte stellen Sie sicher, dass Sie sich <a href="https://www.google.com/recaptcha/admin/create" target="_blank">für einen Schlüssel/ein Konto anmelden</a >',
+
+'recaptcha_site_key' => 'reCAPTCHA  Site-Schlüssel',
+
+'recaptcha_site_key_desc' => 'Geben Sie den Site-Schlüssel ein',
+
+'recaptcha_site_secret' => 'reCAPTCHA  Website-Geheimnis?',
+
+'recaptcha_site_secret_desc' => 'Geben Sie das Geheimnis ein',
+
+'recaptcha_score_threshold' => 'Schwellenpunktzahl',
+
+'recaptcha_score_threshold_desc' => 'Geben Sie die zu bestehende Punktzahl ein, 0,5 ist die Standardeinstellung',
 
 /* Security & Privacy */
 'allow_dictionary_pw' => 'Wörterbuchwörter in Passwörtern zulassen?',
@@ -707,6 +732,8 @@ $lang = array(
 
 'cs_session' => 'Cookies und Session-ID',
 
+'no_cookies_registered' => 'Keine Cookies registriert',
+
 'deny_duplicate_data' => 'Doppelte Daten abweisen?',
 
 'deny_duplicate_data_desc' => 'Wenn aktiviert, werden Formulare jede Eingabe abweisen, die eine exakte Kopie von vorhandenen Daten sind.',
@@ -727,11 +754,13 @@ $lang = array(
 
 'name_of_dictionary_file_desc' => 'URL-Adresse der <mark>Wörterbuch</mark>-Datei.',
 
-'password_lockout_interval' => 'Password-Eingabeblockierung',
+'invalid_name_of_dictionary_file' => 'Wörterbuchdatei mit diesem Namen existiert nicht',
+
+'password_lockout' => 'Passwortsperre aktivieren?',
 
 'password_lockout_desc' => 'Wenn aktiviert, werden Mitglieder vom System geblockt, wenn sie sich zu oft falsch angemeldet haben.',
 
-'password_lockout_interval' => 'Password-Eingabeblockierungs-Intervall',
+'password_lockout_interval' => 'Password-Eingabesperre-Intervall',
 
 'password_lockout_interval_desc' => 'Minutenzahl, die ein Nutzer geblockt bleibt, nachdem er sich viermal falsch angemeldet hat.',
 
@@ -739,9 +768,11 @@ $lang = array(
 
 'pw_min_len_desc' => 'Mindestanzahl an Zeichen, die ein Benutzerpasswort enthalten muss.',
 
+'pw_min_len_does_not_match_policy' => 'Die Mindestanzahl an Passwortzeichen darf für die ausgewählte Passwortsicherheitsrichtlinie nicht kleiner als %d sein.',
+
 'require_cookie_consent' => 'Einwilligung des Benutzers zum Setzen von Cookies erforderlich?',
 
-'require_cookie_consent_desc' => 'Wenn aktiviert, werden Cookies für den Besucher nicht gesetzt (mit Ausnahme der <b>unbedingt erforderlichen</b> für die Funktion der Website), bis sie den Cookie-Richtlinien Ihrer Website zugestimmt haben. Siehe die <a href="'.DOC_URL.'add-ons/consent/">Zustimmungs-Modul-Dokumentation</a> für mehr Details.',
+'require_cookie_consent_desc' => 'Wenn aktiviert, werden Cookies für den Besucher nicht gesetzt (mit Ausnahme der <b>unbedingt erforderlichen</b> für die Funktion der Website), bis sie den Cookie-Richtlinien Ihrer Website zugestimmt haben. Siehe die <a href="' . DOC_URL . 'add-ons/consent/">Zustimmungs-Modul-Dokumentation</a> für mehr Details.',
 
 'require_ip_for_login' => 'Werden User Agent und <abbr title="Internet Protocol">IP</abbr> zwingend für die Anmeldung gebraucht ?',
 
@@ -751,9 +782,17 @@ $lang = array(
 
 'require_ip_for_posting_desc' => 'Wenn aktivert, können Mitglieder ohne gültigen User Agent und <abbr title="Internet Protocol">IP</abbr>-Adresse nicht posten',
 
-'require_secure_passwords' => 'Sichere Passwörter anfordern?',
+'password_security_policy' => 'Kennwortsicherheitsrichtlinie',
 
-'require_secure_passwords_desc' => 'Wenn aktivert, müssen Mitglieder Passwörter benutzen, die mindestens einen Großbuchstaben, einen Kleinbuchstaben und eine Zahl enthalten.',
+'password_security_policy_desc' => 'Wählen Sie die Passwortsicherheitsstufe aus, die Ihre Site-Mitglieder aufrechterhalten müssen. <a href="' . DOC_URL. 'control-panel/settings/security-privacy.html#password-security-policy" target="_blank">Lesen Sie mehr</a> über die Optionen.',
+
+'password_security_none' => 'Keine',
+
+'password_security_basic' => 'Basis',
+
+'password_security_good' => 'Gut',
+
+'password_security_strong' => 'Stark',
 
 's_session' => 'Nur Session-ID',
 
@@ -765,6 +804,10 @@ $lang = array(
 
 'share_analytics_desc' => 'EllisLab bittet Benutzer, bei der Verbesserung von ExpressionEngine zu helfen, indem sie gelegentlich <a href="%s">Analyse-, Diagnose- und Verwendungsinformationen bereitstellen</a>.',
 
+'cli_enabled' => 'Aktivieren Sie die Befehlszeilenschnittstelle (CLI)',
+
+'cli_enabled_shorthand' => 'Aktivieren Sie die CLI',
+
 'un_min_len' => 'Mindest-Namenslänge',
 
 'un_min_len_desc' => 'Mindestanzahl an Buchstaben für neue Benutzernamen.',
@@ -774,7 +817,6 @@ $lang = array(
 'xss_clean_uploads' => '<abbr title="Cross Site Scripting">XSS</abbr>-Filter aktivieren?',
 
 'xss_clean_uploads_desc' => 'Wenn aktiviert, werden <abbr title="Cross Site Scripting">XSS</abbr>-Filter für die Übermittlung von Formulardaten angewendet.',
-
 
 /* Access Throttling */
 'banish_404' => 'Auf eine 404-Seite weiterleiten',
@@ -799,20 +841,19 @@ $lang = array(
 
 'enable_throttling_desc' => 'Wenn aktiviert, werden Mitglieder geblockt, sollten sie die gesetzten Bedingungen überschreiten.',
 
-"lockout_time" => "Blockierungs-Zeitfenster",
+'lockout_time' => 'Blockierungs-Zeitfenster',
 
-"lockout_time_desc" => "Das Zeitfenster, innerhalb dessen das Mitglied blockiert bleibt.",
+'lockout_time_desc' => 'Das Zeitfenster, innerhalb dessen das Mitglied blockiert bleibt.',
 
-"max_page_loads" => "Maximale Seitenaufrufe",
+'max_page_loads' => 'Maximale Seitenaufrufe',
 
-"max_page_loads_desc" => "Maximale Anzahl, die eine Seite von einem Mitglied neugeladen werden kann (innerhalb des unten gesetzten Zeitintervalls), bevor er geblockt wird.",
+'max_page_loads_desc' => 'Maximale Anzahl, die eine Seite von einem Mitglied neugeladen werden kann (innerhalb des unten gesetzten Zeitintervalls), bevor er geblockt wird.',
 
 'throttling_limit_settings' => 'Throttling-Limit: Einstellungen',
 
-"time_interval" => "Zeitintervall",
+'time_interval' => 'Zeitintervall',
 
-"time_interval_desc" => "Die Anzahl vder Sekunden für die oben genannte Anzahl an erlaubten Seitenaufrufen.",
-
+'time_interval_desc' => 'Die Anzahl vder Sekunden für die oben genannte Anzahl an erlaubten Seitenaufrufen.',
 
 /* HTML Buttons */
 'create_html_buttons_error' => 'Kann den <abbr title="Hyper-Text Markup Language">HTML</abbr>-Button nicht angelegen',
@@ -844,7 +885,13 @@ $lang = array(
 
 'cookie_consent_disabled' => 'Cookie-Zustimmung deaktiviert',
 
-'cookie_consent_disabled_desc' => 'Cookiebezogene Einwilligungsanfragen haben keinen Einfluss auf das Setzen von Cookies, es sei denn, die <a href="%s">Cookie-Einwilligungs-Einstellung</a> ist aktiviert.'
+'cookie_consent_disabled_desc' => 'Cookiebezogene Einwilligungsanfragen haben keinen Einfluss auf das Setzen von Cookies, es sei denn, die <a href="%s">Cookie-Einwilligungs-Einstellung</a> ist aktiviert.',
+
+/* Logging */
+
+'anonymize_consent_logs' => 'Anonymisieren Sie Zustimmungs-Audit-Protokolle',
+
+'anonymize_consent_logs_desc' => 'Ausgewählte Felder werden in Consent Audit-Protokollen anonymisiert',
 
 );
 

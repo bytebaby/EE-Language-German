@@ -4,14 +4,17 @@ $lang = array(
 
 'add_file' => 'Datei hinzufügen',
 
-'directory' => 'Verzeichnis:',
-
 'directory_no_access' => 'Sie haben keinen Zugriff auf das Verzeichnis, das diesem Feld zugeteilt wurde',
 
 'file_undo_remove' => 'Löschen widerrufen',
 
 'remove_file' => 'Datei löschen',
 
+'ft_allow_multi' => 'Mehrfachauswahl zulassen?',
+
+'ft_allow_multi_desc' => 'Wenn aktiviert, können Autoren mehrere Elemente auswählen.',
+
+'ft_multiselect_not_allowed' => 'Die Auswahl mehrerer Optionen ist für dieses Feld nicht zulässig',
 
 /* Relationships */
 'any_author' => 'Jeder Autor',
@@ -21,6 +24,10 @@ $lang = array(
 'any_channel' => 'Jeder Channel',
 
 'any_status' => 'Jeder Status',
+
+'relate_entry' => 'Eintrag verknüpfen',
+
+'relate_entry_deferred' => 'Bearbeite Relationships-Felder',
 
 'rel_ft_allow_multi' => 'Mehrfachbeziehungen erlauben?',
 
@@ -70,6 +77,30 @@ $lang = array(
 
 'rel_ft_unrelated_only' => 'Nur nicht zusammenhängende',
 
+'rel_ft_display_entry_id' => 'Eintrags-IDs anzeigen?',
+
+'rel_ft_display_entry_id_desc' => 'Wenn aktiviert, werden Eintrags-IDs zusammen mit dem Titel des Eintrags im Feld angezeigt.',
+
+'rel_ft_display_status' => 'Display Status?',
+
+ 'rel_ft_display_status_desc' => 'Wenn diese Option aktiviert ist, wird das farbige Statusabzeichen zusammen mit dem Eintragstitel im Feld angezeigt.',
+
+ 'rel_ft_deferred' => 'Feldinitialisierung verschieben?',
+
+ 'rel_ft_deferred_desc' => 'Wenn es aktiviert ist, wird dieses Feld erst initialisiert, wenn auf die Schaltfläche „Beziehungen bearbeiten“ geklickt wird. Dies kann zu schnelleren Ladezeiten der Control Panel-Seiten führen.',
+
+'rel_ft_max' => 'Maximale Anzahl verwandter Einträge',
+
+'rel_ft_max_desc' => 'Legt die maximale Anzahl von Einträgen fest, für die dieses Feld verwendet werden kann.',
+
+'rel_ft_max_error' => 'Sie können nicht mehr als %d Einträge auswählen.',
+
+'rel_ft_min' => 'Mindestanzahl verwandter Einträge',
+
+'rel_ft_min_desc' => 'Legt die Mindestanzahl von Einträgen fest, für die dieses Feld verwendet werden soll.',
+
+'rel_ft_min_error' => 'Sie müssen mindestens %d Einträge auswählen.',
+
 /* Duration */
 'duration_ft_hh' => 'hh',
 
@@ -88,6 +119,8 @@ $lang = array(
 'duration_ft_units' => 'Einheiten',
 
 'duration_ft_units_desc' => 'Bestimmt die Länge der Zeit, die beschrieben wird, wenn ein Autor eine ganze Zahl wie "42" eingibt.',
+
+'valid_duration' => 'Dieses Feld muss die Dauer in %s (oder %s) enthalten',
 
 /* File */
 'file_ft_allowed_dirs' => 'Erlaubte Verzeichnisse',
@@ -118,6 +151,8 @@ $lang = array(
 
 'file_ft_show_files_desc' => 'Wenn aktiviert, wird ein Drop Down mit existierenden Dateien angezeigt.',
 
+'file_field_msm_warning' => 'Dieses Feld ist derzeit so eingestellt, dass es das Upload-Verzeichnis <b>%s</b> verwendet, das nur auf der MSM-Site <b>%s</b> verfügbar ist.',
+
 'file_ft_upload_directories' => 'Upload-Verzeichnisse',
 
 /* File Drag and Drop */
@@ -125,6 +160,8 @@ $lang = array(
 'file_dnd_choose_directory' => 'Bitte ein Verzeichnis wählen',
 
 'file_dnd_choose_file_directory' => 'Ein Dateiverzeichnis wählen',
+
+'file_dnd_upload_to' => 'Hochladen zu',
 
 'file_dnd_choose_directory_before_uploading' => 'Sie müssen ein Verzeichnis auswählen, um Dateien hochzuladen',
 
@@ -146,6 +183,8 @@ $lang = array(
 
 'file_dnd_progress' => 'Fortschritt',
 
+'file_dnd_conflict' => 'Fehler. Die Datei existiert bereits.',
+
 'file_dnd_resolve_conflict' => 'Konflikt lösen',
 
 'file_dnd_single_file_allowed' => 'Dieses Feld darf nur eine Datei enthalten',
@@ -156,6 +195,14 @@ $lang = array(
 
 'file_dnd_upload_new' => 'Neu hochladen',
 
+'file_dnd_create_directory' => 'Neues Verzeichnis erstellen',
+
+'file_dnd_no_directories' => 'Keine Upload-Verzeichnisse verfügbar',
+
+'file_dnd_no_directories_desc' => 'Dieses Feld ist auf das Upload-Verzeichnis beschränkt, das für das aktuelle Mitglied und die aktuelle Site nicht verfügbar ist.',
+
+'file_grid_vertical_layout_title' => 'File Grid-Layout',
+ 
 /* Grid */
 'grid_add_field' => 'Neues Feld hinzufügen',
 
@@ -163,11 +210,21 @@ $lang = array(
 
 'grid_allow_reorder' => 'Neuanordnung von Zeilen zulassen?',
 
-'grid_chars_allowed' => 'Zeichen erlaubt.',
+'grid_vertical_layout' => 'Vertikales Layout',
+
+'grid_horizontal_layout' => 'Horizontale Layout',
+
+'grid_auto' => 'Auto',
+
+'grid_vertical_layout_title' => 'Grid-Layout',
+
+'grid_vertical_layout_desc' => 'Wählen Sie aus, wie das Feld auf Veröffentlichungsseiten angezeigt werden soll.',
+
+'grid_chars_allowed' => 'Zeichen erlaubt',
 
 'grid_col_instr' => 'Anweisungen',
 
-'grid_col_label' => 'Label veröffentlichen',
+'grid_col_label' => 'Etikett veröffentlichen',
 
 'grid_col_name' => 'Feldname',
 
@@ -213,6 +270,8 @@ $lang = array(
 
 'grid_min_rows_desc' => 'Das Minimum an Daten-Zeilen für dieses Grid',
 
+'grid_min_rows_required' => 'Dieses Raster erfordert mindestens %d Zeilen.',
+
 'grid_order_by' => 'Sortieren nach',
 
 'grid_output_format' => 'Ausgabe-Formatierung?',
@@ -244,10 +303,71 @@ $lang = array(
 
 'url_ft_protocol_relative_url' => 'Protokoll: Relativer URL',
 
+'url_ft_single_slash_protocol_relative_url' => 'Root-relativer URL',
+
 'url_ft_url_scheme_placeholder' => 'URL-Schema-Platzhalter',
 
 'url_ft_url_scheme_placeholder_desc' => 'Wird als Platzhalter angezeigt, wenn kein URL gesendet wurde.',
 
+/* Color Picker */
+'colorpicker_allowed_colors' => 'Zulässige Farben',
+'colorpicker_allowed_colors_desc' => 'Choose what colors are allowed to be selected.',
+
+'colorpicker_allowed_colors_any' => 'Irgendeine',
+'colorpicker_allowed_colors_swatches' => 'Farbfelder',
+
+'colorpicker_default_color' => 'Standardfarbe',
+'colorpicker_default_color_desc' => 'Wenn diese Option ausgewählt und keine Farbe gewählt wurde, wird stattdessen die Standardfarbe verwendet.',
+
+'colorpicker_color_not_allowed' => 'Diese Farbe ist nicht erlaubt.',
+
+'no_colorpicker_swatches' => 'Keine <b>Farbfelder</b> vorhanden.',
+
+'swatches' => 'Farbfelder',
+
+'colorpicker_swatches_options_desc' => 'Geben Sie eine Liste vordefinierter Farben an, die in der Farbauswahl angezeigt werden sollen.',
+
+'colorpicker_swatches_populate_values' => 'Werte',
+'colorpicker_swatches_populate_manually' => 'Füllen Sie die Farbfelder manuell aus',
+
+ /* Conditional Evaluation Rules */
+'contains' => 'enthält',
+'notContains' => 'enthält nicht',
+'equal' => 'ist',
+'notEqual' => 'ist nicht',
+'isEmpty' => 'ist leer',
+'isNotEmpty' => 'hat irgendeinen Wert',
+'greaterThan' => 'größer als',
+'greaterOrEqualThan' => 'größer als oder gleich wie',
+'lessThan' => 'weniger als',
+'lessOrEqualThan' => 'weniger als oder gleich',
+
+'turnedOn' => 'ist eingeschaltet',
+'turnedOff' => 'ist ausgeschaltet',
+
+'includes' => 'enthält',
+'notIncludes' => 'enthält nicht',
+
+/* Slider */
+'field_step' => 'Schritt',
+
+'field_prefix' => 'Prefix',
+
+'field_suffix' => 'Suffix',
+
+/* Notes */
+'notes_note_content' => 'Inhalt beachten',
+'notes_note_content_desc' => 'Dieser Inhalt wird als Notiz im Veröffentlichungsformular angezeigt. Markdown-Formatierung wird unterstützt.',
+
+    /* Date */
+
+ 'date_localization' => 'Datumslokalisierung',
+ 'date_localization_desc' => 'Wählen Sie aus, wie die Felddaten lokalisiert werden sollen. <a href="' . DOC_URL . 'fieldtypes/date.html">Mehr Info</a>',
+ 'always_localized' => 'Immer lokalisiert',
+ 'always_fixed' => 'Immer behoben',
+ 'ask_each_time' => 'Fragen Sie jedes Mal',
+ 'show_time' => 'Zeit einbeziehen?',
+ 'show_time_desc' => 'Im ausgeschalteten Zustand wird nur das Datum angezeigt',
 );
 
 // EOF

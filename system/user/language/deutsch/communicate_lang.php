@@ -112,8 +112,6 @@ $lang = array(
 
 'recipient' => 'Empfänger',
 
-'recipient_group' => 'Sende zur Mitgliedergruppe',
-
 'remove' => 'Entfernen',
 
 'resend' => 'Nochmals senden',
@@ -140,13 +138,13 @@ $lang = array(
 
 'view' => 'Zeigen',
 
-'view_email_cache' => 'Früher gesendete Emails ansehen',
-
 'wordwrap' => 'Wortumbruch',
 
 'your_email' => 'Deine Email-Adresse',
 
 'your_name' => 'Dein Name',
+
+'roles_send_warning' => '<b>Warning</b>: Das Senden einer Nachricht an eine Rolle (Benutzergruppe) mit vielen Mitgliedern kann zu Problemen mit der Serverleistung führen und sollte mit Vorsicht verwendet werden.',
 
 );
 

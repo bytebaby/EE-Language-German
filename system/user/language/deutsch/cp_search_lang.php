@@ -12,7 +12,7 @@ $lang = array(
 
 'data_recount_stats' => 'Neuzählung Statistik',
 
-'data_search_and_replace' => 'Suchen und Ersetzen',
+'data_search_and_replace' => 'Suchen & Ersetzen',
 
 'data_sql_manager' => 'SQL-Manager',
 
@@ -42,8 +42,6 @@ $lang = array(
 
 'member_custom_profile_fields' => 'Eigene Profilfelder',
 
-'member_group_manager' => 'Mitgliedergruppen-Verwaltung',
-
 'member_ip_search' => 'Mitglieder-IP-Suche',
 
 'member_register_member' => 'Mitglieder eintragen',
@@ -55,8 +53,6 @@ $lang = array(
 'member_view_members' => 'Mitglieder zeigen',
 
 'members_custom_profile_fields' => 'Eigene Profilfelder',
-
-'members_member_group_manager' => 'Mitgliedergruppen-Verwaltung',
 
 'modu_index' => 'Module',
 

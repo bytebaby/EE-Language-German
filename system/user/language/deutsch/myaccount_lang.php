@@ -30,9 +30,11 @@ $lang = array(
 
 'avatar_settings' => 'Avatar-Einstellungen',
 
+'account' => 'Account',
+
 'banned_email' => 'Die von Ihnen angegebene Email-Adresse ist gesperrt',
 
-'base_profile' => 'Base Profile',
+'base_profile' => 'Basis-Profil',
 
 'biography' => 'Biografie',
 
@@ -71,6 +73,8 @@ $lang = array(
 'btn_authenticate_and_login' => 'Authentifizieren & amp; Login',
 
 'btn_login' => 'Login',
+
+'btn_login_working' => 'Loggt ein ...',
 
 'btn_save_settings' => 'Einstellungen speichern',
 
@@ -151,8 +155,6 @@ $lang = array(
 'delete_username' => 'Lösche %s',
 
 'disallowed_screen_chars' => 'Der Bildschirmname enthält unzulässige Zeichen',
-
-'display_avatars' => "Zeigen Sie die Avatare anderer Mitglieder an",
 
 'do_not_show' => 'Werden nicht angezeigt',
 
@@ -276,11 +278,7 @@ $lang = array(
 
 'member_email' => 'Email an Mitglied',
 
-'member_group_assignment' => 'Mitgliedergruppenzuordnung',
-
 'member_group_default' => 'Standardeinstellung für Mitgliedergruppe',
-
-'member_group_warning' => 'Seien Sie vorsichtig beim Zuweisen',
 
 'user_ip_address' => 'IP-Adresse',
 
@@ -330,7 +328,7 @@ $lang = array(
 
 'no_extended_fields' => 'Derzeit gibt es keine erweiterten Mitgliederprofilfelder',
 
-'no_fields_assigned_to_channel' => 'Dem gewählten Channel ist keine Feldgruppe zugeordnet',
+'no_fields_assigned_to_channel' => 'Dem gewählten Channel ist keine Feldergruppe zugeordnet',
 
 'no_quick_links_found' => 'Keine <b>Quick-Lnks</b> gefunden.',
 
@@ -432,16 +430,6 @@ $lang = array(
 
 'right_column' => 'Rechte Spalte',
 
-'rte_enabled' => 'Rich Text Editor aktivieren?',
-
-'rte_enabled_desc' => 'Wenn aktiviert, wird der unten ausgewählte RTE in Veröffentlichungsformularen für diesen Benutzer angezeigt.',
-
-'rte_settings' => 'RTE-Settings',
-
-'rte_toolset' => 'RTE-Werkzeug',
-
-'rte_toolset_desc' => 'Das bevorzugte RTE-Werkzeug auswählen..',
-
 'save_bookmarklet' => 'Bookmarklet speichern',
 
 'screen_name' => 'Bildschirmname',
@@ -481,8 +469,6 @@ $lang = array(
 'subscriptions' => 'Aktuelle Abonnements',
 
 'subscriptions_removed' => 'Aktuelle Abonnements',
-
-'super_admin_demotion_alert' => 'Als Super-Admin können Sie Ihre Mitgliedergruppenzuordnung nicht ändernt',
 
 'system_offline_indicator' => 'System-Offline-Anzeige',
 
@@ -526,13 +512,10 @@ $lang = array(
 
 'unsubscribe_success' => 'Sie wurden erfolgreich abgemeldet.',
 
-'update_avatar_path' => '</em><em>Aktualisieren Sie Ihre <a href="%s">Avatar</a>-Upload-Einstellungen.',
+'avatar_path_does_not_exist' => 'Ihr Avatar-Upload-Verzeichnis existiert nicht. Bitte überprüfen Sie <a href="%s">Avatar</a>-Upload-Einstellungen.',
+'avatars_disabled' => 'Avatare sind deaktiviert. Bitte aktualisieren Sie <a href="%s">Avatar</a>-Upload-Einstellungen..',
 
 'upload_avatar' => 'Upload — .gif, .jpg, .png (max %skb)',
-
-'url' => 'Eigene Website',
-
-'url_desc' => 'URL-Adresse der eigenen Website',
 
 'user_ip_address' => 'IP-Adresse',
 
@@ -558,11 +541,15 @@ $lang = array(
 
 'view_activity' => 'Aktivität anzeigen',
 
+'info_and_activity' => 'Info & Aktivität',
+
 'yahoo_im' => 'Yahoo IM',
 
 'year' => 'Jahr',
 
 'your_html_buttons' => '<abbr title="Hyper-Text Markup Language">HTML</abbr>-Format-Buttons',
+
+'mfa' => 'Multi-Faktor-Authentifizierung',
 
 );
 

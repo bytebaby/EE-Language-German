@@ -6,7 +6,7 @@ $lang = array(
 
 'any_date' => 'Benutzerdefinierter Datumsbereich',
 
-'blacklist' => 'IPs zur Blacklist hinzufügen',
+'block_ips' => 'IPs zur Blockierliste hinzufügen',
 
 'choose_entry_for_comment_move' => 'Eintrag wählen zum Kommentar verschieben ',
 
@@ -60,6 +60,8 @@ $lang = array(
 
 'cmt_subscribe' => 'Diesen Kommentar abonnieren',
 
+'cmt_must_be_logged_in' => 'Diese Seite ist nur für angemeldete Benutzer zugänglich.',
+
 'cmt_too_large' => 'Der Kommentar ist %n Zeichen lang. Es sind nur %x Zeichen erlaubt.',
 
 'cmt_unsubscribe' => 'Abonnement für diesen Kommentar löschen',
@@ -98,10 +100,6 @@ $lang = array(
 
 'date_range' => 'Datumsbereich',
 
-'delete_comment_confirm' => 'Soll dieser Kommentar endgültig gelöscht werden?',
-
-'delete_comments_confirm' => 'Sollen diese Kommentare endgültig gelöscht werden?',
-
 'delete_confirm' => 'Kommentar löschen bestätigen',
 
 'delete_selected' => 'Ausgewählte Kommentare gelöscht',
@@ -137,6 +135,8 @@ $lang = array(
 'keywords' => 'Suchwörter',
 
 'location' => 'Ort',
+
+'marked_as' => 'markieren als',
 
 'move' => 'Verschieben',
 
@@ -199,6 +199,26 @@ $lang = array(
 'you_have_been_subscribed' => 'Sie haben folgenden Eintrag abonniert:',
 
 'you_have_been_unsubscribed' => 'Das Abonnement für folgenden Eintrag wurde gelöscht:',
+
+/* Cookies */
+
+'cookie_my_email' => 'Meine Emailadresse',
+'cookie_my_email_desc' => 'Beim Posten eines Kommentars angegebene E-Mail-Adresse.',
+
+'cookie_my_location' => 'Mein Standort',
+'cookie_my_location_desc' => 'Angegebener Ort beim Posten eines Kommentars.',
+
+'cookie_my_name' => 'My Name',
+'cookie_my_name_desc' => 'Angegebener Name beim Posten eines Kommentars.',
+
+'cookie_my_url' => 'Mein URL',
+'cookie_my_url_desc' => 'Angegebener URL beim Posten eines Kommentars.',
+
+'cookie_notify_me' => 'Benachrichtige mich',
+'cookie_notify_me_desc' => 'Bei Einstellung auf „Ja“ werden Benachrichtigungen an die gespeicherte E-Mail-Adresse gesendet, wenn neue Kommentare abgegeben werden.',
+
+'cookie_save_info' => 'Informationen speichern',
+'cookie_save_info_desc' => 'Wenn auf „Ja“ gesetzt, werden zusätzliche Cookies (my_email, my_location, my_name, my_url) zugelassen, um Gastbenutzerinformationen zum Ausfüllen von Kommentarformularen zu speichern. Dieses Cookie wird nur gesetzt, wenn Sie einen Kommentar abgeben.',
 
 );
 

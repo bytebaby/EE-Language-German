@@ -8,6 +8,8 @@ $lang = array(
 
 'all_comments_for_entry' => 'Alle Kommentare für %s',
 
+'search_results_comments_for_entry' => 'Suche nach Kommentaren für <a href="%s">%s</a><br><i>%d Ergebnisse für "%s"< gefunden/i>',
+
 'all_entries' => 'Alle %d Einträge',
 
 'allow_comments' => 'Kommentare erlauben?',
@@ -56,6 +58,8 @@ $lang = array(
 
 'column_comment_total' => 'Kommentare',
 
+'column_categories' => 'Kategorien',
+
 'column_entry_date' => 'Datum',
 
 'column_entry_id' => 'ID#',
@@ -76,9 +80,13 @@ $lang = array(
 
 'comment_status_desc' => 'Kommentar-Status.',
 
-'comments_removed_desc' => 'Die folgenden Kommentare wurden entfernt',
+'comments_deleted_desc' => 'Die folgenden Kommentare wurden entfernt',
 
 'comments_status_updated_desc' => 'Die folgenden Einträge wurden auf %s gesetzt',
+
+'clone_entry_success' => 'Eintrag erstellt',
+
+'clone_entry_success_desc' => 'Dies ist Ihr neuer geklonter Eintrag.',
 
 'create_entry_error' => 'Eintrag konnte nicht angelegt werden',
 
@@ -89,10 +97,6 @@ $lang = array(
 'create_entry_success_desc' => 'Der Eintrag <b>%s</b> wurde angelegt.',
 
 'create_entry_with_channel_name' => 'Neuer Eintrag: %s',
-
-'custom_date' => 'Benutzerdefiniertes Datum',
-
-'custom_limit' => 'Benutzerdefiniertes Limit',
 
 'edit_channel_entries' => 'Channel-Einträge bearbeiten',
 
@@ -116,11 +120,13 @@ $lang = array(
 
 'entries' => 'Einträge',
 
-'entries_removed_desc' => 'Die folgenden Einträge wurden entfernt',
+'entries_deleted_desc' => 'Die folgenden Einträge wurden entfernt',
+
+ 'entries_not_deleted_desc' => 'Die folgenden Einträge konnten nicht gelöscht werden. Bitte überprüfen Sie, ob Sie über ausreichende Berechtigungen verfügen.',
 
 'entry' => 'Eintrag',
 
-'entry_date' => 'Datum des Eintrags',
+'entry_date' => 'Eintragsdatum',
 
 'entry_date_desc' => 'Veröffentlichungsdatum dieses Eintrages.',
 
@@ -139,6 +145,8 @@ $lang = array(
 'expiration_date' => 'Ablaufdatum',
 
 'expiration_date_desc' => 'Datum, an dem der Eintrag ablaufen soll.',
+
+ 'edit_date' => 'Letztes Bearbeitungsdatum',
 
 'filter_autosaves' => 'Filter für automatisch gespeichert',
 
@@ -170,12 +178,13 @@ $lang = array(
 
 'sticky' => 'Eintrag oben fixieren?',
 
-'sticky_desc' => 'Wenn Option aktiviert, wird dieser Eintrag innerhalb der sortierten Einträge immer oben angezeigt.',
+'sticky_entry' => 'Fixierter Eintrag',
+
+'sticky_desc' => 'Wenn Option aktiviert, wird dieser Eintrag innerhalb der sortierten Einträge zum Beispiel dauerhaft oben angezeigt.',
 
 'url_title' => '<abbr title="Unified Resource Locator">URL</abbr>-Title',
 
 'url_title_desc' => '<abbr title="Unified Resource Locator">URL</abbr>-Ort des Eintrages.',
-
 
 /* Publish page */
 'action_delete' => 'Löschen',
@@ -231,6 +240,8 @@ $lang = array(
 'button_mode' => 'Button-Modus:',
 
 'calendar' => 'Kalender',
+
+'close_preview' => 'Vorschau schliessen',
 
 'cancel_preview' => 'Vorschau beenden',
 
@@ -322,10 +333,6 @@ $lang = array(
 
 'delete_comment' => 'Kommentare löschen',
 
-'delete_comment_confirm' => 'Soll dieser Kommentar definitiv gelöscht werden?',
-
-'delete_comments_confirm' => 'Sollen diese Kommentare definitiv gelöscht werden?',
-
 'delete_confirm' => 'Löschen bestätigen',
 
 'delete_entries_confirm' => 'Sollen diese Einträge definitiv gelöscht werden?',
@@ -373,6 +380,10 @@ $lang = array(
 'field_blank' => 'Ein Feld wurde leer gelassen.',
 
 'fields' => 'Felder',
+
+'add' => 'Hinzufügen',
+
+'add_field' => 'Feld hinzufügen',
 
 'file_exists' => 'Es gibt bereits eine Datei mit diesem Namen.',
 
@@ -540,6 +551,8 @@ $lang = array(
 
 'no_entries_matching_that_criteria' => 'Es gibt keine Einträge, die Ihren Suchkriterien entsprechen.',
 
+'no_entries_on_this_site' => 'Der Eintrag gehört zu einer anderen Site.',
+
 'no_glossary' => 'Ein Wörterbuch existiert nicht',
 
 'no_member_groups' => 'Es muss zur Zuteilung/Entfernung eines Layouts mindestens eine Mitgliedergruppe gewählt werden.',
@@ -612,7 +625,23 @@ $lang = array(
 
 'preview_entry' => 'Eintrags-Vorschau',
 
-'preview_layout' => 'Layout-Vorschau',
+'preview_layout' => 'Live-Vorschau',
+
+'preview_url_not_set' => 'Live-Vorschau-URL ist nicht festgelegt',
+
+'preview_url_not_set_desc' => "Bitte den <a href='%s' target='_blank'>Live-Vorschau-URL</a> in den Channel-Einstellungen hinzufügen.",
+
+'preview_not_allowed' => 'Vorschau nicht erlaubt',
+
+'preview_not_allowed_desc' => "Ändern Sie Ihre Channel-Einstellungen auf <a href='%s' target='_blank'>Vorschau zulassen</a>.",
+
+'preview_cannot_display' => 'Die Live-Vorschau kann nicht angezeigt werden',
+
+'preview_domain_mismatch_desc' => "Live-Vorschau-URL benutzt <code>%1\$s</code>, jedoch greifen Sie über <code>%2\$s</code> auf die Systemsteuerung zu.",
+
+'preview_protocol_mismatch_desc' => "Live-Vorschau-URL benutzt <code>%1\$s</code>, jedoch greifen Sie über <code>%2\$s</code> auf die Systemsteuerung zu.",
+
+'preview_domain_error_instructions' => "Sie können die Live-Vorschau nur von Domains aufrufen, die als <code>Basis-URL</code>, <code>CP-URL</code>, <code>Site-URL</code> konfiguriert oder als <code>allowed_preview_domains</code> hinzugefügt wurden. Code> Konfigurationsüberschreibung.",
 
 'publish' => 'Verfassen',
 
@@ -679,6 +708,12 @@ $lang = array(
 'status' => 'Status',
 
 'status_changed' => 'Status geändert',
+
+'status_changed_desc' => 'Der Eintragsstatus wurde geändert zu <b>%s</b>',
+
+'status_not_available' => 'Status nicht verfügbar',
+
+'status_not_available_desc' => 'Der aktuelle Eintragsstatus ist: Auf <b>%s</b> kann nicht zugegriffen werden. <br /> Entweder ist es gelöscht, diesem Kanal nicht zugewiesen oder Sie haben keine Berechtigungen dafür.',
 
 'tab_count_zero' => 'Es muss ein Tab übrig bleiben für die Felder.',
 
@@ -748,6 +783,8 @@ $lang = array(
 
 'version_preview' => 'Überarbeitung %s',
 
+'version_no' => 'Revision #%d',
+
 'versioning_enabled' => 'Versionierung für diesen Eintrag einschalten',
 
 'versioning_enabled_desc' => 'Wenn aktiviert, werden pro Eintrag bis zu %d Überarbeitungen gespeichert.',
@@ -762,12 +799,15 @@ $lang = array(
 
 'view_wider' => 'Mehr anzeigen',
 
+ 'viewing_revision' => 'Sie sehen eine Revision',
+
+ 'viewing_revision_desc' => 'Alle gespeicherten Änderungen überschreiben die neueste Version dieses Eintrags',
+
 'warning' => 'Warnung',
 
 'width' => 'Breite',
 
 'you_have_uploaded' => 'Sie haben diese Datei hochgeladen:',
-
 
 /* Textarea Buttons */
 'create_blockquote' => 'Zitat erstellen',
@@ -792,13 +832,20 @@ $lang = array(
 
 'view_code' => 'Code ansehen',
 
-
 /* Relationships */
 'add_new_html_button' => 'Neuen HTML-Button hinzufügen',
 
-'add_new_row' => 'Neue Zeile hinzugefügt',
+'add_new_row' => 'Neue Zeile hinzugefügen',
+
+'add_row' => 'Zeile hinzugefügen',
 
 'collapse' => 'Zuklappen',
+
+'collapse_all' => 'Alle zuklappen',
+
+'expand' => 'Aufklappen',
+
+'expand_all' => 'Alle aufklappen',
 
 'creating_new_in_rel' => 'Erstellen eines neuen Eintrags in <b>#to_channel#</b> für eine Beziehung mit <b>#from_channel#</b>',
 
@@ -827,7 +874,6 @@ $lang = array(
 'search_related_entries' => 'Verknüpfte Einträge durchsuchen',
 
 'show_tools' => 'Zeige Tools',
-
 
 /* writemode */
 'add_file' => 'Datei anfügen',
@@ -872,8 +918,6 @@ $lang = array(
 
 'maintain_ratio' => 'Größenverhältnis beibehalten',
 
-'member_group' => 'Mitgliedergruppe',
-
 'no_entry_to_update' => 'Sie wollten einen Eintrag bearbeiten, den es nicht gibt.',
 
 'no_templates' => 'Kein Template',
@@ -909,7 +953,6 @@ $lang = array(
 'wm_discard_changes' => 'Änderungen verwerfen',
 
 'wm_publish_to_field' => 'Ins Feld veröffentlichen',
-
 
 /* Publish Tabs */
 'menu_categories' => 'Kategorien',
@@ -968,7 +1011,25 @@ $lang = array(
 
 'showing' => 'Zeigen',
 
-'unauthorized_entry_desc' => 'Sie sind nicht berechtigt, einen der ausgewählten Einträge zu bearbeiten.'
+'unauthorized_entry_desc' => 'Sie sind nicht berechtigt, die ausgewählten Einträge zu bearbeiten.',
+
+/* Entry Manager */
+
+'entry_manager_view_created' => 'Ansicht erstellt',
+
+'entry_manager_view_created_desc' => 'Die Ansicht <b>%s</b> wurde erstellt.',
+
+'entry_manager_view_updated' => 'Ansicht aktualisiert',
+
+'entry_manager_view_updated_desc' => 'Die Ansicht <b>%s</b> wurde aktualisiert.',
+
+'entry_manager_view_not_created' => 'Ansicht kann nicht erstellt werden',
+
+'entry_manager_view_not_created_desc' => 'Diese Ansicht konnte nicht erstellt werden. Bitte beheben Sie die folgenden Fehler.',
+
+'entry_manager_view_not_updated' => 'Ansicht kann nicht aktualisiert werden',
+
+'entry_manager_view_not_updated_desc' => 'Diese Ansicht konnte nicht aktualisiert werden. Bitte beheben Sie die folgenden Fehler.',
 
 );
 

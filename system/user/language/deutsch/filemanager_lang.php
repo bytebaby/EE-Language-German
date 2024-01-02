@@ -1,18 +1,36 @@
 <?php
 
 $lang = array(
+	
+'added_by' => 'Hinzugefügt von',
 
 'all_files' => 'Alle Dateien',
+
+'allow_subfolders' => 'Unterordner zulassen?',
+
+'allow_subfolders_desc' => 'Verwalten Sie verschachtelte Ebenen von Unterordnern in diesem Upload-Verzeichnis.',
 
 'append' => 'Dateiname um Zahl erweitern <i>&mdash; z.B.: %s</i>',
 
 'btn_cancel_upload' => 'Upload abbrechen',
+
+'delete' => 'Löschen',
+
+'delete_file' => 'Datei löschen',
 
 'btn_edit_file_meta' => 'Speichere Datei-Metadaten',
 
 'btn_finish_upload' => 'Auswahl übernehmen',
 
 'categories' => 'Kategorien',
+
+'column_file_id' => 'ID#',
+
+'column_title' => 'Titel',
+
+'column_categories' => 'Kategorien',
+
+'copy_link' => 'Link kopieren',
 
 'credit' => 'Kredit',
 
@@ -21,6 +39,8 @@ $lang = array(
 'date_added' => 'Datum hinzugefügt',
 
 'description' => 'Beschreibung',
+
+'dimensions' => 'Maße',
 
 'download' => 'Download',
 
@@ -35,6 +55,10 @@ $lang = array(
 'edit_file_metadata_success_desc' => 'Die Metadaten für die Datei <b>%s</b> wurden aktualisiert.',
 
 'exceeds_max_dimensions' => 'Datei überschreitet maximale Größe und ist nicht in der Größe veränderbar.',
+
+'existing_subfolders' => 'Vorhandene Unterordner einbeziehen?',
+
+'existing_subfolders_desc' => 'Alle vorhandenen Ordner in diesem Upload-Verzeichnis werden im Dateimanager angezeigt.',
 
 'file' => 'Datei',
 
@@ -66,7 +90,41 @@ $lang = array(
 
 'invalid_short_name' => 'Der Kurzname zur Bildmanipulation darf nur alphanumerische Zeichen, Binde- oder Unterstrich enthalten und darf nicht "thumbs" genannt werden.',
 
+ 'link' => 'Link',
+
+'invalid_upload_destination' => 'Das Upload-Ziel ist ungültig.',
+
+'keep_subfolders_top' => 'Unterordner im Vordergrund behalten?',
+
+'keep_subfolders_top_desc' => 'Gruppieren Sie Unterordner beim Durchsuchen oben in der Dateiliste.',
+
+'last_modified' => 'Zuletzt bearbeitet',
+
+'limit_subfolder_toggle' => 'Ebenen von Unterordnern begrenzen?',
+
+'limit_subfolders_toggle_desc' => 'Ebenen von Unterordnern begrenzen?',
+
+'limit_subfolders' => 'Unterordner-Layer-Limit',
+
+'limit_subfolders_desc' => 'Wie viele verschachtelte Ebenen von Unterordnern möchten Sie in diesem Upload-Verzeichnis zulassen?',
+
+'modified_by' => 'Geändert von',
+
+'move' => 'Bewegen',
+
+'name' => 'Dateiname',
+
+'new_folder' => 'Neuer Ordner',
+
+'folder_name' => 'Ordnername',
+
 'location' => 'Ort',
+
+'create_folder_location' => 'Erstellen Sie einen Ordner an folgendem Speicherort:',
+
+'subfolder_directory_renamed' => 'Unterordnerverzeichnis umbenannt',
+
+'subfolder_already_exists' => 'Unterordnerverzeichnis existiert bereits',
 
 'no_file' => 'Keine Datei ausgewählt',
 
@@ -80,21 +138,27 @@ $lang = array(
 
 'not_an_image' => 'Ausgewählte Datei ist kein Bild',
 
+'open_cmd' => 'Offen',
+
 'pixels' => 'Pixel',
 
 'problem_downloading_file' => 'Fehler beim Versuch, die gewählte Datei herunterzuladen. Bitte klären Sie, ob die Datei auf dem Server liegt.',
 
 'problem_downloading_files' => 'Fehler beim Versuch, die gewählten Dateien herunterzuladen. Bitte klären Sie, ob die Datei auf dem Server liegt.',
 
+'rename_cmd' => 'Umbenennen',
+
 'rename' => 'Die <strong>neuere</strong> Datei umbenennen',
 
 'replace' => 'Ältere Datei ersetzen <i>&mdash; Datei wird überschrieben</i>',
 
+'replace_file' => 'Ersetzen',
+
 'replace_no_metadata' => 'Nur die Datei wurde ersetzt. Titel, Beschreibung, Credit, Standort und Kategorien wurden nicht aktualisiert.',
 
-'search_files' => 'Suche Dateien',
-
 'security_failure' => 'Diesen Dateityp dürfen Sie nicht hochladen.',
+
+'select' => 'Auswählen...',
 
 'show_all_files' => 'Alle %d Dateien',
 
@@ -112,10 +176,14 @@ $lang = array(
 
 'upload_options' => 'Upload-Optionen',
 
+'uploaded_by' => 'Hochgeladen von',
+
+'usage' => 'Verwendungszweck',
+
+'usage_desc' => 'Diese Datei wird an folgenden Orten verwendet:',
 
 /* sidebar */
 'zero_directories_found' => 'Keine <b>Verzeichnisse</b> gefunden',
-
 
 /* modal */
 '90_degrees_left' => '90 Grad links',
@@ -196,6 +264,8 @@ $lang = array(
 
 'flip_vertically' => 'Vertikal spiegeln',
 
+'folder_deleted_desc' => 'Der Ordner wurde gelöscht',
+
 'height' => 'Höhe',
 
 'no_categories_assigned_file_desc' => 'Dieser Datei wurde keine Kategorien zugewiesen. <a href="%s">Kategorie-Gruppe zuweisen.</a>',
@@ -242,6 +312,9 @@ $lang = array(
 
 'zero_upload_directories_found' => 'Kein <b>Upload-Verzeichnis</b> gefunden.',
 
+'remove_files_from_disk' => 'Dateien von der Festplatte entfernen?',
+
+'toggle_on_to_remove_files' => 'Aktivieren Sie den Schalter, um die Dateien physisch zu entfernen',
 
 /* Uploads */
 'add_manipulation' => 'Neue Bildbearbeitung anlegen',
@@ -270,9 +343,11 @@ $lang = array(
 
 'constrain_or_crop' => 'Skalieren oder Beschneiden',
 
-'constrain_or_crop_desc' => 'Veränderungen an Bildern in diesem <mark>Upload</mark>-Verzeichnis beim Upload.',
+'constrain_or_crop_desc' => 'Veränderungen an Bildern in diesem <mark>Verzeichnis</mark> beim Uploaden.',
 
 'create_upload_directory' => 'Upload-Verzeichnis anlegen',
+
+'new_directory' => 'Neues Verzeichnis',
 
 'create_watermark' => 'Wasserzeichen anlegen',
 
@@ -314,6 +389,10 @@ $lang = array(
 
 'file_sync_desc_images' => '<b>%d</b> <mark>Bild</mark>-Dateien',
 
+'filesystem_adapter' => 'Adapter',
+
+'local' => 'Lokal',
+
 'horizontal' => 'horizontal',
 
 'image' => 'Bild',
@@ -346,6 +425,8 @@ $lang = array(
 
 'image_options' => 'Bild-Optionen',
 
+'link_copied' => 'Link zur Datei wurde kopiert',
+
 'left' => 'Links',
 
 'middle' => 'Mitte',
@@ -372,11 +453,23 @@ $lang = array(
 
 'upload_allowed_types' => 'Erlaubte Dateitypen?',
 
-'upload_allowed_types_opt_all' => 'Alle Dateitypen?',
+'type_all' => 'Alle Dateitypen',
 
-'upload_allowed_types_opt_images' => 'Nur Bilder',
+'type_img' => 'Grafik',
 
-'upload_btn_edit' => 'beabreiten',
+'type_doc' => 'Dokument',
+
+'type_video' => 'Video',
+
+'type_audio' => 'Audio',
+
+'type_archive' => 'Archiv',
+
+'type_other' => 'Andere',
+
+'type_directory' => 'Ornder',
+
+'upload_btn_edit' => 'bearbeiten',
 
 'upload_btn_sync' => 'synchronisieren',
 
@@ -406,11 +499,15 @@ $lang = array(
 
 'upload_member_groups' => 'Erlaubte Mitgliedergruppen',
 
-'upload_member_groups_desc' => 'Die folgenden Mitgliedergruppen dürfen in dieses Verzeichnis hochladen.</em><br /><em>Super Administratoren dürfen <b>immer</b>.',
+'upload_member_groups_desc' => 'Die folgenden Mitgliedergruppen dürfen in dieses Verzeichnis hochladen.</em><br /><em>Super Administratoren dürfen<b>immer</b>.',
+
+'upload_roles' => 'Erlaubte Benutzerrollen',
+
+'upload_roles_desc' => 'Mitglieder mit folgenden Benutzerregeln dürfen in dieses Verzeichnis hochladen.<br />Super Administratoren dürfen <b>immer</b>.',
 
 'upload_path' => 'Upload-Pfad',
 
-'upload_path_desc' => 'Absoluter Pfad dieses <mark>Upload</mark>-Verzeichnisses.',
+'upload_path_desc' => 'Absoluter Pfad dieses <mark>Verzeichnisses</mark>',
 
 'upload_privileges' => 'Upload-Rechte',
 
@@ -420,7 +517,7 @@ $lang = array(
 
 'upload_url' => 'Upload-Verzeichnis',
 
-'upload_url_desc' => '<abbr title="Uniform Resource Location">URL</abbr>-Pfad des <mark>Upload</mark>-Verzeichnisses.',
+'upload_url_desc' => '<abbr title="Uniform Resource Location">URL</abbr>-Pfad des <mark>Verzeichnisses</mark>',
 
 'vertical' => 'vertikal',
 
@@ -493,7 +590,6 @@ $lang = array(
 'watermarks_true_type' => 'True Type aktivieren?',
 
 'watermarks_true_type_desc' => 'Wenn aktiviert, werden Text-Wasserzeichen mittels True Type gerendert.',
-
 
 /* 2.x */
 'choose_file' => 'Bitte eine Datei zum Löschen wählen',
@@ -570,7 +666,6 @@ $lang = array(
 
 'where' => 'Wo',
 
-
 /* Upload modal */
 'all_categories' => 'Alle Kategorien',
 
@@ -587,6 +682,8 @@ $lang = array(
 'batch_upload' => 'Stapel-Upload',
 
 'browse_files' => 'Dateien durchsuchen',
+
+'browser_behavior' => 'Browserverhalten',
 
 'can_upload_files' => 'Kann Dateien uploaden',
 
@@ -644,6 +741,8 @@ $lang = array(
 
 'exit_apply_changes' => 'Sie verlassen diesen Bearbeitungsmodus. Sollen die Änderungen vorher übernommen werden?',
 
+'field_options' => 'Felder-Optionen',
+
 'file_count' => 'Anzahl der Dateien',
 
 'file_directory_id' => 'ID',
@@ -694,8 +793,6 @@ $lang = array(
 
 'max_width' => 'Maximale Bildbreite in Pixel',
 
-'member_group' => 'Mitgliedergruppe',
-
 'new_file_upload_created' => 'Neuen Datei-Upload erstellt',
 
 'new_file_upload_preferences' => 'Neue Einstellungen für den Datei-Upload',
@@ -707,8 +804,6 @@ $lang = array(
 'no_edit_selected' => 'Keine Bearbeitungsoperation gewählt',
 
 'no_errors' => 'Keine Fehler',
-
-'no_results' => 'Keine Mitgliedergruppen verfügbar',
 
 'no_sync_title' => 'Kein Ergebnisse', // @todo, this phrase should change, just not sure what to put -ga
 'no_upload_directories_for_fieldtype' => 'Derzeit sind keine Upload-Verzeichnisse verfügbar. Fügen Sie <a href="%s" rel="external">ein oder mehrere Upload-Verzeichnisse hinzu</a>, um den Feldtyp "Datei" zu verwenden.',
@@ -751,14 +846,6 @@ $lang = array(
 
 'resize_width' => 'Breite',
 
-'restrict_notes_1' => 'Mit den Radio-Buttons bestimmen Sie, welche Mitgliedergruppen die Berechtigung zum Dateiupload haben.',
-
-'restrict_notes_2' => 'Super-Admins können immer Dateien uploaden',
-
-'restrict_notes_3' => 'Hinweis: Datei-Upload ist zur Zeit nur über Control Panel möglich',
-
-'restrict_to_group' => 'Beschränke Datei-Upload auf Mitgliedergruppen',
-
 'rotate' => 'Drehen',
 
 'rotate_180' => '180&#176',
@@ -797,6 +884,8 @@ $lang = array(
 
 'upload_dir_dropdown' => '%s (%s Dateien)',
 
+'upload_location' => 'Standort hochladen',
+
 'upload_pref_deleted' => 'Upload-Einstellung gelöscht:',
 
 'upload_pref_name' => 'Beschreibender Name für das Upload-Verzeichnis',
@@ -809,14 +898,12 @@ $lang = array(
 
 'width_needed' => 'Eine Breite oder Breite/Höhe oder eine Drehen/Spiegeln-Richtung muss angegeben werden.',
 
-
 /* Batch Page */
 'caption' => 'Bildbeschriftung',
 
 'include' => 'Einschließen?',
 
-'thumbnail' => 'Vorschaubildl',
-
+'thumbnail' => 'Vorschaubild',
 
 /* Watermark */
 'add_watermark' => 'Keine',
@@ -894,6 +981,72 @@ $lang = array(
 'wm_x_transp' => 'X-Koordinate für Transparenz',
 
 'wm_y_transp' => 'Y-Koordinate für Transparenz',
+
+/* Removing */
+
+'folder_not_empty' => 'The directory is not empty',
+
+'all_files_in_folder_will_be_deleted' => 'If you delete this folder, all files in it will be deleted as well.',
+
+'all_files_in_folder_will_be_moved' => 'All files in folder will be moved with it.',
+
+'file_is_in_use' => 'The file is being used <a href="%s"> in <span>%s</span> entries</a>',
+
+'files_is_in_use' => 'Please note some of these files are currently in use',
+
+/* Moving the files */
+
+'move_file' => 'Move File',
+
+'select_new_destinatin_for' => 'Select new destination for:',
+
+'destination' => 'Destination',
+
+'error_moving_need_same_driver' => 'The files can be moved only between upload directories that use same adapter',
+
+'error_moving_already_there' => 'The file is already in target destination',
+
+'files_moved' => 'The files have been moved',
+
+'some_files_not_moved' => 'Could not move some files',
+
+'error_moving_directory_cannot_be_own_child' => 'Directory cannot be moved to this position',
+
+/* Subfolders */
+
+'subfolder_directory_already_exists' => 'Unterordner existiert bereits',
+
+'subfolder_directory_already_exists_desc' => 'Verzeichnis mit diesem Namen existiert bereits im Dateisystem',
+
+'error_creating_directory' => 'Ordner konnte nicht erstellt werden',
+
+'error_moving_already_exists' => 'Verschieben nicht möglich, da Datei oder Ordner mit diesem Namen bereits vorhanden ist',
+
+'subfolder_directory_created' => 'Ordner erstellt',
+
+'invalid_subfolder' => 'Der ausgewählte Unterordner ist an diesem Upload-Speicherort nicht vorhanden',
+
+'subfolder_not_exists' => 'Der ausgewählte Unterordner existiert nicht auf dem Server',
+
+'subfolder_not_writable' => 'Der ausgewählte Unterordner ist nicht beschreibbar',
+
+'rename_folder' => 'Ordner umbenennen',
+
+'could_not_rename' => 'Umbenennen nicht möglich',
+
+'one_rename_at_a_time' => 'Es kann immer nur eine Datei/ein Ordner umbenannt werden',
+
+'new_name' => 'Neuer Name',
+
+'error_renaming_already_exists' => 'Umbenennen nicht möglich, da Datei oder Ordner mit diesem Namen bereits vorhanden ist',
+
+'rename_success' => 'Erfolgreich umbenannt',
+
+'rename_success_desc' => '<code>%s</code> wurde umbenannt in <code>%s</code>',
+
+'existing_file_manipulations_desc' => 'Dies sind vorhandene vordefinierte Manipulationen für diese Datei basierend auf den Einstellungen des Upload-Verzeichnisses',
+
+'manipulations' => 'Manipulationen',
 
 );
 

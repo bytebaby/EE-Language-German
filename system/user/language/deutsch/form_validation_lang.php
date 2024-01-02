@@ -20,6 +20,8 @@ $lang = array(
 
 'greater_than' => 'Dieses Feld muss größer sein als: %s',
 
+'greater_or_equal_than' => 'Dieses Feld muss größer oder gleich sein als: %s',
+
 'hex_color' => 'Dieses Feld muss einen gültigen Hex-Farbcode enthalten.',
 
 'integer' => 'Dieses Feld muss eine Ganzzahl enthalten.',
@@ -32,9 +34,13 @@ $lang = array(
 
 'is_natural_no_zero' => 'Dieses Feld muss eine Zahl größer als Null enthalten.',
 
+'is_not_numeric' => 'Dieses Feld darf keine Zahl sein.',
+
 'is_numeric' => 'Dieses Feld darf nur nummerische Zeichen enthalten',
 
 'less_than' => 'Dieses Feld muss kleiner sein als: %s',
+
+'less_or_equal_than' => 'Dieses Feld muss kleiner oder gleich sein als: %s',
 
 'limithtml' => 'Dieses Feld kann nur die folgenden HTML-Tags enthalten: %s. Wenn Sie spitze Klammern < in Ihrem Text verwenden möchten, aber nicht HTML, ersetzen Sie bitte &amp;lt; für < und &amp;gt; für >.',
 
@@ -52,7 +58,15 @@ $lang = array(
 
 'required' => 'Dieses Feld wird benötigt.',
 
+'starts_with' => 'Dieses Feld sollte mit beginnen <code>%s</code>.',
+
+'not_starts_with' => 'Dieses Feld sollte nicht mit beginnen <code>%s</code>.',
+
 'unique' => 'Dieses Feld muss eindeutig sein.',
+
+'unique_among_channel_fields' => 'Dieses Feld muss eindeutig sein und darf nicht mit dem Kurznamen eines Kanalfelds übereinstimmen.',
+
+'unique_among_field_groups' => 'Dieses Feld muss eindeutig sein und darf nicht mit einem Kurznamen einer Feldgruppe übereinstimmen.',
 
 'unique_email' => 'Dieses Feld muss eine eindeutige Email-Adresse enthalten.',
 
@@ -66,12 +80,10 @@ $lang = array(
 
 'valid_url' => 'Dieses Feld muss einen gültigen URL enthalten.',
 
-
 /* Legacy form validation lib */
 'file_exists' => 'Dieser Pfad ist entweder ungültig oder nicht beschreibbar.',
 
 'writable' => 'Dieser Pfad ist entweder ungültig oder nicht beschreibbar.',
-
 
 /* special and legacy things */
 'auth_password' => 'Das eingegebene Passwort ist falsch.',

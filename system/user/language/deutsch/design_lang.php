@@ -6,11 +6,11 @@ $lang = array(
 
 'all_sites' => 'Alle Sites',
 
-'allowed_member_groups' => 'Zugelassene Mitgliedergruppen',
+'allowed_roles' => 'Zugelassene Mitgliedergruppen',
 
-'allowed_member_groups_desc' => 'Die folgenden Mitgliedergruppen dürfen auf diese Template-Gruppe zugreifen.',
+'allowed_roles_desc' => 'Die folgenden Mitgliedergruppen dürfen auf diese Template-Gruppe zugreifen.',
 
-'allowed_member_groups_super_admin' => 'Super-Admins dürfen <b>immer</b>.',
+'allowed_roles_super_admin' => 'Super-Administratoren dürfen <b>immer</b>.',
 
 'author_unknown' => 'unbekannt',
 
@@ -88,6 +88,8 @@ $lang = array(
 
 'edit_template' => 'Bearbeite Template: %s',
 
+'edit_template_title' => 'Template bearbeiten',
+
 'edit_template_group' => 'Template-Gruppe bearbeiten',
 
 'edit_template_group_error' => 'Template-Gruppe nicht angelegt',
@@ -116,7 +118,7 @@ $lang = array(
 
 'edit_template_variable_success_desc' => 'Die Template-Variable <b>%s</b> wurde aktualisiert.',
 
-'email' => 'Email',
+'email' => 'Emails',
 
 'enable_caching' => 'Caching einschalten?',
 
@@ -168,7 +170,7 @@ $lang = array(
 
 'make_default_group_desc' => 'Wenn aktivert, wird diese Gruppe als Standard für diese Website gesetzt.',
 
-'member_groups' => 'Mitgliedergruppen',
+'roles' => 'Rollen',
 
 'messages' => 'Nachrichten',
 
@@ -236,11 +238,11 @@ $lang = array(
 
 'template_manager' => 'Template-Manager',
 
-'template_member_groups' => 'Erlaubte Mitgliedergruppen',
+'template_roles' => 'Zulässige Rollen',
 
-'template_member_groups_desc' => 'Mitglieder in diesen Mitgliedergruppen können Templates in dieser Template-Gruppe erstellen, bearbeiten und löschen.',
+'template_roles_desc' => '„Mitglieder in diesen Rollen können jede ausgewählte Aktion in dieser Templategruppe ausführen.“',
 
-'template_name_taken' => 'Der angegebene Template-Name ist bereits vorhanden',
+'template_name_taken' => 'Der von Ihnen übermittelte Templatename ist bereits vergeben',
 
 'template_notes' => 'Template-Notizen',
 
@@ -256,13 +258,15 @@ $lang = array(
 
 'template_route_override' => 'Template-Routes überschreiben',
 
-'template_route_override_desc' => 'Überschreibt das standardmäßige ExpressionEngine <mark>gruppe/template</mark>-Routing.',
+'template_route_override_desc' => 'Überschreibt das standardmäßige <mark>templategruppe/template</mark> Routing von ExpressionEngine.',
 
 'template_routes' => 'Template-Routes',
 
 'template_settings_and_access' => 'Template-Einstellungen und Zugriff',
 
 'template_type' => 'Template-Typ',
+
+'template_engine' => 'Engine',
 
 'template_variable' => 'Template-Variable',
 
@@ -274,7 +278,7 @@ $lang = array(
 
 'templates_in_group' => 'Templates in <b>%s</b>',
 
-'templates_removed_desc' => 'Die folgenden Templates wurden entfernt',
+'templates_deleted_desc' => 'Die folgenden Vorlagen wurden gelöscht',
 
 'update_template_error' => 'Template nicht aktualisiert',
 
@@ -294,7 +298,6 @@ $lang = array(
 
 'zero_template_groups_found' => 'Keine <b>Template-Gruppe</b> gefunden',
 
-
 /* System Templates -> Messages */
 'message_template' => 'Mitgliedernachrichten',
 
@@ -306,6 +309,9 @@ $lang = array(
 
 'system_message_templates' => 'System-Nachrichten-Templates',
 
+'post_install_message_template' => 'Nachricht nach der Installation',
+
+'mfa_template' => 'Multi-Faktor-Authentifizierungsvorlage',
 
 /* System Templates -> Email */
 'comments' => 'Kommentare',
@@ -328,12 +334,10 @@ $lang = array(
 
 'variables_desc' => 'Liste der verfügbaren Variablen für dieses Email-Template.',
 
-
 /* System Templates -> Members */
 'file_not_writable' => '<b>Achtung</b>: Diese Datei ist nicht beschreibbar',
 
 'file_writing_instructions' => 'Die Änderungen am Template können erst gespeichert werden, wenn die Rechte dafür eingeräumt sind.',
-
 
 /* System Templates -> Forums */
 'forum_manager' => 'Foren-Manager',
@@ -343,7 +347,6 @@ $lang = array(
 'unable_to_find_template_file' => 'Die Template-Datei konnte nicht gefunden werden.',
 
 'unable_to_find_templates' => 'Die Templates können nicht gefunden werden.',
-
 
 /* Menu */
 'forum_themes' => 'Foren-Themes',
@@ -359,7 +362,6 @@ $lang = array(
 'themes' => 'Themes',
 
 'wiki_themes' => 'Wiki-Themes',
-
 
 /* Templates */
 '404_page' => '404-Seite',
@@ -522,8 +524,6 @@ $lang = array(
 
 'medium' => 'Mittel',
 
-'member_group' => 'Mitgliedergruppe',
-
 'missing_name' => 'Ihr Template muss einen Namen haben',
 
 'name_of_template' => 'Template-Name',
@@ -561,6 +561,8 @@ $lang = array(
 'php_in_templates_warning' => '<b>Achtung</b>: PHP in Templates hat Auswirkungen auf die Sicherheit.',
 
 'php_in_templates_warning2' => 'Jede Einstellung, die mit %s markiert, sollte mit Vorsicht benutzt werden.',
+
+'php_in_templates_config_warning' => 'Sie müssen die Datei <code>$config[\'allow_php\'] = \'y\';</code> in <code>config.php</code> bearbeiten, wenn Sie diese Funktion verwenden möchten.',
 
 'preference' => 'Einstellung',
 
@@ -780,7 +782,6 @@ $lang = array(
 
 'you_must_submit_a_name' => 'Das Template braucht einen Namen.',
 
-
 /* Profile Theme Templates */
 'activation_email_resent' => 'Aktivierungs-Email nochmals gesendet',
 
@@ -845,8 +846,6 @@ $lang = array(
 'forgot_form' => 'Formular: Passwort vergessen',
 
 'full_profile' => 'Ganze Profil-Seite',
-
-'group_description' => 'Mitgliedergruppen-Beschreibung',
 
 'home_page' => 'Mitgliederprofil-Startseite',
 
