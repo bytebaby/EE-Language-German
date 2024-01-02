@@ -8,7 +8,7 @@ $lang = array(
 
 'add_htaccess_file' => 'Zur .htaccess hinzufügen?',
 
-'add_htaccess_file_desc' => 'Vollständiger Pfad zur <mark>.htaccess</mark>.',
+'add_htaccess_file_desc' => 'Vollständiger Pfad zur <mark>htaccess</mark>.',
 
 'btn_save_list' => 'Liste speichern',
 
