@@ -1,4 +1,5 @@
 <?php $lang = <<<EOF
+
 a
 about
 above
