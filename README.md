@@ -1,12 +1,11 @@
-German Translation Pack for ExpressionEngine 5.x
+German Translation Pack for ExpressionEngine 7.x
 ================================================
-
-[![Build Status](https://travis-ci.org/EllisLab/EE-Language-German.svg?branch=master)](https://travis-ci.org/EllisLab/EE-Language-German/branches)
 
 - Copyright (C) 2009-2018 EllisLab, Inc.
 - Original German translation provided by: Werner Gusset (gusset@octave2.ch)
 - Erweitert für EE 3.x von Tom Jaisle (jaisle@eyelabel.com)
 - Partly new translated and expanded for EE 3.x and EE 4.x by: Ralph Segert (ralph@segert.net)
+- Update for EE 7.3.14 by Ralph Segert
 
 Note from Ralph Segert:
 I have strictly followed the order of the lines in the English language pack.
