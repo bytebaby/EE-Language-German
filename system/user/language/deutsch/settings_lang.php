@@ -517,6 +517,8 @@ $lang = array(
 
 'require_terms_of_service_desc' => 'Wenn aktiviert, müssen neue Mitglieder bei der Registrierung den Nutzungsbedingungen zustimmen.',
 
+'manage_bans' => 'Verbotseinstellungen',
+
 /* Menu Manager */
 'add_menu_item' => 'Menüpunkt hinzufügen',
 
