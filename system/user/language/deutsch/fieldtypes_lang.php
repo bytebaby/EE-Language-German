@@ -6,6 +6,8 @@ $lang = array(
 
 'directory_no_access' => 'Sie haben keinen Zugriff auf das Verzeichnis, das diesem Feld zugeteilt wurde',
 
+'edit_meta' => 'Metadaten bearbeiten',
+
 'file_undo_remove' => 'Löschen widerrufen',
 
 'remove_file' => 'Datei löschen',
@@ -27,6 +29,8 @@ $lang = array(
 
 'relate_entry' => 'Eintrag verknüpfen',
 
+'relate_member' => 'Mitglied verknüpfen',
+
 'relate_entry_deferred' => 'Bearbeite Relationships-Felder',
 
 'rel_ft_allow_multi' => 'Mehrfachbeziehungen erlauben?',
@@ -44,6 +48,12 @@ $lang = array(
 'rel_ft_channels' => 'Channel für den Bezug wählen',
 
 'rel_ft_channels_desc' => 'Von welchen Channels sollen Inhalte verknüpft werden.',
+
+'rel_ft_roles' => 'Einzuschließende Rollen',
+
+'rel_ft_roles_desc' => 'Erlauben Sie nur die Auswahl von Mitgliedern mit ausgewählten primären Rollen',
+
+'any_role' => 'Jede Rolle',
 
 'rel_ft_include' => 'In die Wahl einschliessen',
 
@@ -81,7 +91,10 @@ $lang = array(
 
 'rel_ft_display_entry_id_desc' => 'Wenn aktiviert, werden Eintrags-IDs zusammen mit dem Titel des Eintrags im Feld angezeigt.',
 
-'rel_ft_display_status' => 'Display Status?',
+ 'rel_ft_display_member_id' => 'Mitglieds-IDs anzeigen?',
+
+ 'rel_ft_display_member_id_desc' => 'Wenn diese Option aktiviert ist, werden die Mitglieds-IDs zusammen mit dem Namen des Mitgliedsbildschirms im Feld angezeigt.',
+ 'rel_ft_display_status' => 'Display Status?',
 
  'rel_ft_display_status_desc' => 'Wenn diese Option aktiviert ist, wird das farbige Statusabzeichen zusammen mit dem Eintragstitel im Feld angezeigt.',
 
