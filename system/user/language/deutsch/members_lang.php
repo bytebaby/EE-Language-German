@@ -6,6 +6,8 @@ $lang = array(
 
 'all_roles' => 'Alle Benutzerrollen',
 
+'all_role_members' => 'Alle %s Mitglieder',
+
 'alpha' => 'Alphabetisch aufsteigend',
 
 'alpha_desc' => 'Alphabetisch absteigend',
@@ -174,11 +176,13 @@ $lang = array(
 
 'locked' => 'Gesperrt',
 
+'login_as' => 'Login als %s',
+
+'login_as_member' => 'Login als Mitglied',
+
 'login_as_member_description' => 'Wenn Sie auf Senden klicken, werden Sie als Mitglied "%screen_name%" angemeldet und auf die folgende Seite weitergeleitet.',
 
 'login_as_user' => 'Super-Admin als Benutzer anmelden',
-
-'manage_bans' => 'Gesperrte Mitglieder',
 
 'maximum_members_reached' => 'Sie haben die maximal zulässige Anzahl von Mitgliedern erreicht.',
 
@@ -266,6 +270,10 @@ $lang = array(
 'role_deleted' => 'Rolle gelöscht',
 
 'role_desc' => 'Weisen Sie diesem Benutzer Zugriffsberechtigungen zu.',
+
+'role_highlight_color' => 'Hervorhebungsfarbe',
+
+'role_highlight_color_desc' => 'Farbe für dieses Rollenabzeichen. Akzeptiert HEX-Codes.',
 
 'role_updated_desc' => 'Die Rolle wurde erfolgreich gespeichert.',
 
@@ -470,7 +478,7 @@ $lang = array(
 
 'username_banning_instructions' => '<b>Platzieren Sie jeden Benutzernamen in einer separaten Zeile.</b><br> Diese Benutzernamen sind nicht zulässig.',
 
-/* Member group settings */
+/* ole settings */
 'access_privilege_caution' => 'Jede Einstellung, die mit <span class="icon-caution" title="Mit Vorsicht anwenden"></span> gekennzeichnet ist, sollte nur Personen gewährt werden, denen Sie vertrauen.',
 
 'access_privilege_warning' => '<b>Achtung</b>: Bitte seien Sie sehr vorsichtig mit den von Ihnen gewährten Zugriffsrechten.',
@@ -699,15 +707,19 @@ $lang = array(
 
 'include_members_in_desc' => 'Benutzer in dieser Gruppe werden in alle ausgewählten Listentypen aufgenommen.',
 
+'show_field_names' => 'Feldnamen beim Veröffentlichen anzeigen',
+
+'show_field_names_desc' => 'Wenn diese Option aktiviert ist, werden kopierbare Namen von Feldern auf den Seiten zum Veröffentlichen und Bearbeiten von Einträgen eingefügt',
+
 'mbr_account_privs' => 'Berechtigungen für Mitgliederkonten',
 
 'mbr_delete_notify_emails' => 'Email-Adresse(n) für die Benachrichtigung von Löschungen',
 
 'mbr_delete_notify_emails_desc' => 'Alle Empfänger werden benachrichtigt, wenn ein Benutzer sein Konto löscht. Trennen Sie mehrere Emails mit einem Komma.',
 
-'member_group_created' => 'Mitgliedergruppe erstellt:',
+'role_created' => 'Erstellte Rolle:',
 
-'member_group_updated' => 'Mitgliedergruppe aktualisiert:',
+'role_updated' => 'Aktualisierte Rolle:',
 
 'members' => 'Mitglieder',
 
@@ -836,9 +848,9 @@ $lang = array(
 
 'delete_files' => 'Dateien löschen',
 
-'delete_member_groups' => 'Mitgliedergruppen löschen',
+'delete_roles' => 'Rollen löschen',
 
-'delete_profile_field_confirmation' => 'Möchten Sie dieses Mitgliederprofilfeld endgültig löschen?',
+'delete_profile_field_confirmation' => 'Sind Sie sicher, dass Sie dieses Mitgliedsprofilfeld dauerhaft löschen möchten?',
 
 'delete_statuses' => 'Status löschen',
 
@@ -857,6 +869,8 @@ $lang = array(
 'edit_categories' => 'Kategorien bearbeiten',
 
 'edit_channel_fields' => 'Channel-Felder bearbeiten',
+
+'edit_member_fields' => 'Mitgliederfeld bearbeiten',
 
 'edit_files' => 'Dateien bearbeiten',
 
@@ -1010,6 +1024,10 @@ $lang = array(
 
 'upload_new_toolsets' => 'Neue Sets hochladen',
 
+'column_member_id' => 'ID#',
+
+'column_username' => 'Name',
+
 /* Roles */
 
 'roles_manager' => 'Benutzerrollen',
@@ -1158,7 +1176,9 @@ $lang = array(
 
 'access_overview_can_edit_channel_fields' => 'Felder bearbeiten',
 
-'access_overview_can_delete_channel_fields' => 'Felscher löschen',
+'access_overview_can_edit_member_fields' => 'Bearbeiten Sie Mitgliedsfelder',
+
+'access_overview_can_delete_channel_fields' => 'Felder löschen',
 
 'access_overview_can_create_categories' => 'Kategorien erstellen',
 
