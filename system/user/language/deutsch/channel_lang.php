@@ -20,6 +20,10 @@ $lang = array(
 
 'category_groups_desc' => 'Weisen Sie diesem Channel eine oder mehrere Kategoriengruppen zu.',
 
+'cat_required' => 'Erforderlich?',
+
+'cat_allow_multiple' => 'Mehrere zulassen?',
+
 'channel' => 'Channel',
 
 'channel_form_layouts' => '%s &ndash; Formularlayouts',
@@ -412,7 +416,7 @@ $lang = array(
 
 'enforce_auto_url_title' => 'Automatischen URL-Titel erzwingen',
 
- 'enforce_auto_url_title_desc' => 'Stellen Sie das URL-Titelfeld auf schreibgeschützt und generieren so automatisch einen eindeutigen Wert dafür.',
+'enforce_auto_url_title_desc' => 'Stellen Sie das URL-Titelfeld auf schreibgeschützt und generieren so automatisch einen eindeutigen Wert dafür.',
 
 'versioning' => 'Versionierung',
 
@@ -444,6 +448,8 @@ $lang = array(
 'category_ajax_reorder_fail' => 'Achtung: Kategorien-Reihenfolge <b>nicht</b> gesichert',
 
 'category_ajax_reorder_fail_desc' => 'Die neue Kategorien-Reihenfolge konnte nicht gesichert werden. Aktualisieren Sie die Seite und gehen Sie sicher, dass Sie angemeldet sind.',
+
+'category_group_no_permissions' => 'Sie sind nicht berechtigt, Kategorien in dieser Gruppe zu ändern.',
 
 'category_created' => 'Kategorie angelegt',
 
