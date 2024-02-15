@@ -95,7 +95,7 @@ $lang = array(
 	'checkbox_options_desc' => 'Jedes Element wird als Checkbox mit passender Bezeichnung (Label) im Redakteurformular erscheinen.',
 	
 	'clear_versioning_data' => 'Alle gespeicherten Überarbeitungen in diesem Channel löschen',
-	
+ 
 	'click_to_assign_group' => 'Hier klicken, um es zuzuweisen',
 	
 	'closed' => 'Geschlossen',
@@ -716,6 +716,8 @@ $lang = array(
 	'multi_list_items' => 'Multi-Select-Optionen',
 	
 	'new_field_group' => 'Neue Feldergruppe',
+	
+	'ungrouped' => 'Nicht gruppiert',
 	
 	'no_field_group_message' => 'Zur Zeit sind keine Channel-Felder vorhanden',
 	
