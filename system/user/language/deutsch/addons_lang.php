@@ -67,6 +67,8 @@ $lang = array(
 	
 	'contact_developer' => 'Bitte kontaktieren Sie den Add-On-Entwickler für Hilfe.',
 	
+	'addons_not_uninstalled' => 'Add-Ons nicht deinstalliert',
+	
 	'addons_uninstalled' => 'Add-Ons deinstalliert',
 	
 	'addons_uninstalled_desc' => 'Folgende Add-Ons wurden deinstalliert: ',
@@ -102,43 +104,16 @@ $lang = array(
 	'uninstalled' => 'Deinstalliert',
 	
 	// 2.x
-	'addons_extensions' => 'Extensions',
-	
-	'addons_fieldtypes' => 'Feldtypen',
-	
-	'addons_modules' => 'Module',
-	
-	'addons_plugins' => 'Plugins',
-	
-	'and_more' => 'und %x mehr...',
-	
-	'available_to_member_groups' => 'Verfügbar für Mitgliedergruppen',
-	
-	'component' => 'Bestandteil',
 	
 	'configuration' => 'Konfiguration',
 	
-	'current_status' => 'Aktueller Status',
-	
-	'delete_fieldtype' => 'Feldtyp entfernen',
-	
-	'delete_fieldtype_confirm' => 'Wollen Sie wirklich diesen Feldtyp entfernen?',
-	
 	'description' => 'Beschreibung',
-	
-	'ext_disabled_short' => 'Deaktiviert',
-	
-	'ext_enabled_short' => 'Aktiviert',
 	
 	'extension' => 'Erweiterung',
 	
-	'extension_disabled' => 'Erweiterung deaktiviert',
-	
-	'extension_enabled' => 'Erweiterung aktiviert',
-	
 	'extensions' => 'Erweiterungen',
 	
-	'extensions_disabled' => 'Erweiterungen deaktivieren',
+	'extension_disabled' => 'Erweiterung deaktiviert',
 	
 	'extensions_disabled_desc' => 'Erweiterungen wurden deaktiviert',
 	
@@ -157,8 +132,6 @@ $lang = array(
 	'fieldtype_name' => 'Feldname',
 	
 	'global_settings_saved' => 'Einstellungen gespeichert',
-	
-	'member_group_assignment' => 'Zugewiesene Mitgliedergruppe',
 	
 	'module' => 'Modul',
 	
