@@ -5,7 +5,7 @@ German Translation Pack for ExpressionEngine 7.x
 - Original German translation provided by: Werner Gusset (gusset@octave2.ch)
 - Erweitert für EE 3.x von Tom Jaisle (jaisle@eyelabel.com)
 - Partly new translated and expanded for EE 3.x and EE 4.x by: Ralph Segert (ralph@segert.net)
-- Update for EE 7.3.14 by Ralph Segert
+- Update for EE 7.4 by Ralph Segert (2024-02-15)
 
 Note from Ralph Segert:
 I have strictly followed the order of the lines in the English language pack.
