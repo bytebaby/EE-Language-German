@@ -35,8 +35,10 @@ $lang = array(
 	 'rte_config_json_desc' => 'Überschreibt das visuell erstellten Werkzeugsatz',
 	 'rte_advanced_config_warning' => '<p><b>Warnung</b>: <b class="no">Nur für fortgeschrittene Benutzer.</b> Bitte seien Sie vorsichtig bei der Verwendung dieser Funktion und überprüfen Sie Ihre Arbeit.</p><p>Angabe einer ungültigen Konfiguration kann dazu führen, dass auf die RTE-Felder nicht mehr zugegriffen werden kann.</p><p>Konsultieren Sie die Dokumente zur Bearbeitungs-Engine: <a href="https://ckeditor.com/docs/ckeditor5/latest/installation/getting-started/configuration.html" target= „_blank“>CKEditor</a>, <a href="https://imperavi.com/redactor/docs/settings/" target="_blank">Redactor</a>.</p><p>Hinweis dass einige Optionen möglicherweise nicht verfügbar oder anders implementiert sind. Wir empfehlen die Verwendung der vollständigen Konfiguration als Ausgangsbasis.<p>',
 	'rte_config_saved' => 'Konfiguration gespeichert!',
-	'rte_config_saved_desc' => 'Ihre Konfiguration wurde erfolgreich gespeichert.',
-	
+	'rte_config_saved_desc' => 'Ihre Konfiguration wurde erfolgreich gespeichert.',	
+	'rte_custom_ckeditor_build' => 'Benutzerdefinierten CKEditor-Build verwenden?',
+	'rte_custom_ckeditor_build_desc' => 'Ermöglicht die Verwendung eines benutzerdefinierten CKEditor-Builds mit zusätzlichen Plugins. Wenn aktiviert, werden RTE-Instanzen, auf denen CKEditor ausgeführt wird, mit dem Skript <code>themes/user/rte/javascript/ckeditor.js</code> erstellt. Suchen Sie im Benutzerhandbuch nach <a href="' . DOC_URL . 'add-ons/rte.html#ckeditor" rel="external">Bauanleitungen</a>.',
+
 	// Delete Config
 	'rte_delete_config' => 'Konfiguration löschen',
 	'rte_delete_config_confirm' => 'Möchten Sie diese Konfiguration wirklich dauerhaft löschen?',
@@ -237,6 +239,10 @@ $lang = array(
 	
 	'image_rte' => 'Image',
 	
+	'imageposition_rte' => 'Bildposition',
+	
+	'imageresize_rte' => 'Bildgröße ändern',
+	
 	'file_rte' => 'File',
 	
 	'strikethrough_rte' => 'Strikethrough',
@@ -253,13 +259,21 @@ $lang = array(
 	
 	'code_rte' => 'Code',
 	
-	'blockquote_rte' => 'Zitat',
+	'blockcode_rte' => 'Code',
+	
+	'blockquote_rte' => 'Zitat blockieren',
+	
+	'quote_rte' => 'Zitat',
 	
 	'heading_rte' => 'Headline',
 	
 	'format_rte' => 'Format',
 	
+	'inlineformat_rte' => 'Format',
+	
 	'removeFormat_rte' => 'Formatierung entfernen',
+	
+	'removeformat_rte' => 'Formatierung entfernen',
 	
 	'undo_rte' => 'Undo',
 	
@@ -286,6 +300,8 @@ $lang = array(
 	'filemanager_rte' => 'Bild',
 	
 	'insertTable_rte' => 'Tabelle',
+	
+	'selector_rte' => 'Klasse & ID',
 	
 	'table_rte' => 'Table',
 	
@@ -319,9 +335,15 @@ $lang = array(
 	
 	'fontBackgroundColor_rte' => 'Schriftart Hintergrund',
 	
+	'codeBlock_rte' => 'Codeblock',
+	
+	'sourceEditing_rte' =>  'Quellenbearbeitung',
+	
 	'open_in_new_tab' => 'Neuen Tab öffnen',
 	
 	'source_rte' => 'Quelltext anzeigen',
+	
+	'showBlocks_rte' => 'Blöcke anzeigen',
 	
 	'video_rte' => 'Video',
 	
@@ -349,6 +371,62 @@ $lang = array(
 	'pages_rte' => 'Seiten',
 	
 	'fontcolor_rte' => 'Textfarbe',
+	
+	'rte_spellcheck' => 'Rechtschreibprüfung',
+	
+	 'rte_spellcheck_desc' => 'Rechtschreibprüfung im Editor aktivieren (muss auch im Browser aktiviert sein)',
+	
+	 'browser' => 'Browser',
+	
+	 'grammarly' => 'Grammatikalisch',
+	
+	 'rte_control_bar' => 'Kontrollleiste anzeigen?',
+	
+	 'rte_control_bar_desc' => 'Die Steuerleiste ist das reduzierte Menü, das links vom fokussierten Element angezeigt wird und einige allgemeine Aktionen enthält',
+	
+	 'rte_format' => 'Formatierungsoptionen',
+	
+	 'rte_format_desc' => 'In der Dropdown-Liste „Format“ zulässige Tags',
+	
+	 'add_rte' => 'Hinzufügen',
+	
+	 'shortcut_rte' => 'Tastenkürzel',
+	
+	 'embed_rte' => 'Einsetzen',
+	
+	 'mark_rte' => 'Markieren',
+	
+	 'kbd_rte' => 'kbd',
+	
+	 'pre_rte' => 'Vorformatiert',
+	
+	 'rte_show_context' => 'Kontextleiste anzeigen?',
+	
+	 'rte_show_context_desc' => 'Die Kontextleiste wird angezeigt, wenn Text ausgewählt ist',
+	
+	 'rte_context' => 'Kontextleiste',
+	
+	 'rte_show_addbar' => 'Kontextleiste anzeigen?',
+	
+	 'rte_show_addbar_desc' => 'Die Kontextleiste erscheint, wenn Sie auf die Schaltfläche „Hinzufügen“ klicken',
+	
+	 'rte_addbar' => 'Kontextleiste',
+	
+	 'rte_show_topbar' => 'Obere Leiste anzeigen?',
+	
+	 'rte_show_topbar_desc' => 'Wird rechts neben der Hauptsymbolleiste angezeigt',
+	
+	 'rte_topbar' => 'Obere Leiste',
+	
+	 'rte_toolbar_sticky' => 'Symbolleiste anheften?',
+	
+	 'rte_show_main_toolbar_desc' => 'Hält die Symbolleiste beim Scrollen immer sichtbar',
+	
+	 'rte_show_main_toolbar' => 'Hauptsymbolleiste anzeigen',
+	
+	 'rte_show_main_toolbar_desc' => 'Kann deaktiviert werden, während die Funktionalität über andere Symbolleisten oder Tastaturkürzel zugänglich bleibt',
+	
+	 'rte_main_toolbar' => 'Hauptsymbolleiste',
 
 ''=>''
 );
