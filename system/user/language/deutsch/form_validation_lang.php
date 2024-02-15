@@ -66,6 +66,8 @@ $lang = array(
 
 'unique_among_channel_fields' => 'Dieses Feld muss eindeutig sein und darf nicht mit dem Kurznamen eines Kanalfelds übereinstimmen.',
 
+'unique_among_member_fields' => 'Dieses Feld muss eindeutig sein und darf nicht mit dem Kurznamen eines Mitgliedsfelds übereinstimmen.',
+
 'unique_among_field_groups' => 'Dieses Feld muss eindeutig sein und darf nicht mit einem Kurznamen einer Feldgruppe übereinstimmen.',
 
 'unique_email' => 'Dieses Feld muss eine eindeutige Email-Adresse enthalten.',
