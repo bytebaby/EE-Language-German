@@ -1,8 +1,8 @@
 ------------------------------------------------
-# Deutsches Sprachpaket für ExpressionEngine 7.5
+# Deutsches Sprachpaket für ExpressionEngine 7.4
 ------------------------------------------------
 
-Letzte Korrekturen: 08.02.2016
+Letzte Korrekturen: 15.02.2024
 
 
 Das Verzeichnis `/system/user/language/deutsch` in das Verzeichnis `/system/user/language/deutsch` der Installation
