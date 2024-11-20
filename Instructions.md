@@ -5,12 +5,12 @@
 Letzte Korrekturen: 15.02.2024
 
 
-Das Verzeichnis `/system/user/language/deutsch` in das Verzeichnis `/system/user/language/deutsch` der Installation
+Das Verzeichnis `/system/user/language/deutsch` in das Verzeichnis `/system/user/language/` der Installation
 kopieren.
 
 Die original ExpressionEngine-Sprachdateien liegen in
 
-/system/ee/legacy/language/english
+/system/ee/language/english
 
 ##Übersetzer der EE-Sprachdateien für EE 2.+ seit 2004:
 
