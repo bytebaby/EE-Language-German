@@ -1,9 +1,9 @@
 ------------------------------------------------
-# Deutsches Sprachpaket für ExpressionEngine 3.0
+# Deutsches Sprachpaket für ExpressionEngine 7.5
 ------------------------------------------------
 
 Letzte Korrekturen: 08.02.2016
-(nicht vollständig übersetzt)
+
 
 Das Verzeichnis `/system/user/language/deutsch` in das Verzeichnis `/system/user/language/deutsch` der Installation
 kopieren.
@@ -28,5 +28,15 @@ Oelkersallee 14a
 22769 Hamburg
 Germany
 
+##Teilweise neu übersetzt und erweitert von EE 3.x zu EE 4.x von Ralph Segert (rs@segert.net) 
+
+Ralph Segert
+Grafil- & Webdesign
+Beckeradsdelle 72a
+45897 Gelsenkirchen
+Germany
+
+##Komplette Neuübersetzung von EE 5.x bis EE 7.x von Ralph Segert, strikt angelehnt an die Struktur der englischen Sprachdateien.
+
 Bitte Fehler und Anregungen zur Verbesserung per E-Mail an
-jaisle@eyelabel.com
+rs@segert.net
